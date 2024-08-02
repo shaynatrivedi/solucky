@@ -1,0 +1,2 @@
+# solucky
+Website for solucky
