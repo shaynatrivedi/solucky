@@ -5,8 +5,8 @@ const Navbar = () =>{
     return(
         <nav className="navbar">
             <div className="header">
-                <h1>solucky</h1>
-                <h3>est.2020</h3>
+                <h1 className="title">solucky</h1>
+                <h3 className="titleCaption">est.2020</h3>
             </div>
            
            <ul>
