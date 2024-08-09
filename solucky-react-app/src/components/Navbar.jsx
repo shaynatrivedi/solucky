@@ -9,7 +9,7 @@ const Navbar = () =>{
                 <h3 className="titleCaption">est.2020</h3>
             </div>
            
-           <ul>
+           <ul className="navList">
             <li>shop</li>
             <li>collabs</li>
             <li>magazine</li>

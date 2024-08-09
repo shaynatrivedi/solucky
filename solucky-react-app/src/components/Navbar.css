@@ -1,3 +1,10 @@
 .navbar .header {
     font-style: italic;
 }
+
+.navbar .navList{
+    font-weight: 700;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
