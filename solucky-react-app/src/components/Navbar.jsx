@@ -11,8 +11,10 @@ const Navbar = () =>{
            
            <ul className="navList">
             <li>shop</li>
-            <li>collabs</li>
             <li>magazine</li>
+            <li>media</li>
+            <li>collabs</li>
+            <li>events</li>
             <li>team</li>
             <li>about</li>
            </ul>
