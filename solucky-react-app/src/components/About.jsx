@@ -5,8 +5,9 @@ import './About.css';
 const About = () => {
   return (
     <div className="about-page">
-      <h1>About Us</h1>
-      <p>Welcome to the About page. We are a magazine team with a mission to inspire.</p>
+        <div className='about-bg-1'>
+            <img src='Assets/About/about-bg-1.png' alt='background 1'/>
+        </div>
     </div>
   );
 }
