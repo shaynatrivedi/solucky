@@ -1,0 +1,39 @@
+.about-page{
+    display: flex;
+    flex-direction:column;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: top;
+    
+}
+
+.section1{
+    background-image: url('/public/Assets/About/about-bg-1.png');
+    min-height: 260vh;
+}
+
+.section2{
+    background-image: url('/public/Assets/About/about-bg-2.png');
+    min-height: 220vh;
+}
+
+.section3{
+    background-image: url('/public/Assets/About/about-bg-3.png');
+    min-height: 275vh;
+}
+
+.section4{
+    background-image: url('/public/Assets/About/about-bg-4.png');
+    min-height: 250vh;
+}
+
+.section5{
+    background-color: rgb(198, 132, 46);
+    min-height: 40vh;
+}
