@@ -1,6 +1,7 @@
 .navbar{
     background-color: rgba(0, 0, 0, 0); /* 50% opacity black background */
     padding: 20px;
+    position: absolute;
 }
 
 .navbar .header {
