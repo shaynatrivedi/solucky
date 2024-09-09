@@ -9,17 +9,21 @@ const About = () => {
             <img src='Assets/About/about-bg-1.png' alt='background 1'/>
         </div> */}
 
-        <bgsection className='section section1'>
-          <p>we here at section1</p>
-        </bgsection>
+        <section className='section section1'>   
+        </section>
 
-        <bgsection className='section section2'>
-          <p>we here at section2</p>
-        </bgsection>
+        <section className='section section2'>
+        </section>
 
-        <bgsection className='section section3'>
-          <p>we here at section3</p>
-        </bgsection>
+        <section className='section section3'>
+        </section>
+
+        <section className='section section4'>
+        </section>
+
+        <section className='section section5'>
+        </section>
+        
 
     </div>
   );
