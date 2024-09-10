@@ -11,6 +11,15 @@
     font-style: italic;
 }
 
+.navbar .header .title{
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.navbar .header .titleCaption{
+    margin-top: -10px;
+}
+
 .navbar .navList{
     list-style-type: none;
     display: flex;
