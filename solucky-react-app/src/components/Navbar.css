@@ -12,8 +12,18 @@
 }
 
 .navbar .navList{
-    font-weight: 700;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+a:hover{
+    color: red
 }
