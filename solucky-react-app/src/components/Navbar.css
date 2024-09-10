@@ -12,24 +12,28 @@
 }
 
 .navbar .header .title{
-    font-size: xx-large;
+    font-size: 35px;
     margin-bottom: 0px;
 }
 
 .navbar .header .titleCaption{
+    font-size: 20px;
     margin-top: -10px;
 }
 
 .navbar .navList{
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    gap: 60px;
+    justify-content: center ;
+    padding-left: 0px;
 }
 
 .navbar .navList a{
     text-decoration: none;
     color: black;
     font-weight: 700;
+    font-size: 25px;
     transition:color .3s ease;
     position: relative;
     padding-bottom: 10px; /* adds space between underline and item*/
