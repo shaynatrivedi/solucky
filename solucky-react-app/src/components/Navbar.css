@@ -21,9 +21,9 @@ a{
     text-decoration: none;
     color: black;
     font-weight: 700;
-
+    transition:color .3s ease;
 }
 
 a:hover{
-    color: red
+    text-decoration: underline;
 }
