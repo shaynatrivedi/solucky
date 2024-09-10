@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgba(0, 0, 0, 0); /* 50% opacity black background */
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,28 @@
     justify-content: space-evenly;
 }
 
-a{
+.navbar .navList a{
     text-decoration: none;
     color: black;
     font-weight: 700;
     transition:color .3s ease;
+    position: relative;
+    padding-bottom: 10px; /* adds space between underline and item*/
 }
 
-a:hover{
-    text-decoration: underline;
+.navbar .navList a::after{
+    content: "";
+    position: absolute;
+    left: 50%; /* **Start the underline at the center** */
+    width: 0; /* **Start with no visible underline** */
+    height: 4px; 
+    background: black;
+    border-radius: 10px;
+    bottom: 0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
+
+.navbar .navList a:hover:after {
+    width: 100%; /* **Expand the underline fully across the text** */
+    left: 0; /* **Move it to the left to fill the entire width** */
+  }
