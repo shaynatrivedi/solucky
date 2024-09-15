@@ -37,3 +37,38 @@
     background-color: rgb(198, 132, 46);
     min-height: 40vh;
 }
+
+.about-message{
+    background-color: #75962D;
+    color: white;
+    display: flex;
+    text-align: left;
+}
+
+.about-message h1{
+    color: #FFF;
+    font-family: Georgia;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+.about-message p{
+    color: #FFF;
+    font-family: Georgia;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textbox{
+    width: 527px;
+    height: 575px;
+    padding: 40px;
+}
