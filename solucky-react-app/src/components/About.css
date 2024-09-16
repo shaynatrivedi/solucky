@@ -75,3 +75,27 @@
     height: 575px;
     padding: 40px;
 }
+
+.about-image-1{
+    position: absolute;
+    bottom: -414px; /* Place it 50px below section1's bottom to overlap section2 */
+    margin-left: 941px;
+    z-index: 2;
+    width: 500px;
+    height: 666.728px;
+    flex-shrink: 0;
+}
+
+.about-image-2{
+    position: absolute;
+    margin-left: 356px;
+    margin-top: 357px;
+    z-index: 2;
+}
+
+.about-image-3{
+    position: absolute;
+    margin-left: 61px;
+    margin-top: 558px;
+    z-index: 1;
+}
