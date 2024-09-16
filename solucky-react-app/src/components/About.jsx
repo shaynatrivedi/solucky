@@ -21,11 +21,13 @@ const About = () => {
               has ever met.
               </p>
             </div>
-            
-          </div> 
+          </div>
+          <img className='about-image-1' src='../Assets/About/5.png' alt='overlap-image' ></img> 
         </section>
-
+        
         <section className='section section2'>
+          <img className='about-image-2' src='../Assets/About/3.png' alt='overlap-image' ></img> 
+          <img className='about-image-3' src='../Assets/About/6.png' alt='overlap-image' ></img> 
         </section>
 
         <section className='section section3'>
