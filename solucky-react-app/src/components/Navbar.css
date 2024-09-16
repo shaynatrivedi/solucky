@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    z-index: 999;
 }
 
 .navbar .header {
