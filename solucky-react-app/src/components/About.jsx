@@ -28,6 +28,18 @@ const About = () => {
         <section className='section section2'>
           <img className='about-image-2' src='../Assets/About/3.png' alt='overlap-image' ></img> 
           <img className='about-image-3' src='../Assets/About/6.png' alt='overlap-image' ></img> 
+
+          <div className='about-message brand-message'>
+            <div className='textbox2'>
+              <h1>The Brand</h1>
+              <p>
+              Founded by Sanjana in August 2020, the brand draws its name from a cherished 
+              childhood memory. Inspired by her father's endearing reference to their family
+              as "so-lucky," the name "solucky" was chosen to reflect a personal connection
+              & resonate as a catchy, memorable brand identity.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className='section section3'>

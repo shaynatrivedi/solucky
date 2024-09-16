@@ -40,12 +40,24 @@
 }
 
 .about-message{
-    background-color: #75962D;
     color: white;
     display: flex;
     text-align: left;
+}
+
+.founder-message{
+    background-color: #75962D;
     margin-left: 96px;
     margin-top:445px;
+}
+
+.brand-message{
+    background-color: #75C3F5;
+    height: fit-content;
+    margin-left: 808px;
+    position: absolute;
+    bottom: -150px;
+    z-index: 2;
 }
 
 .about-message h1{
@@ -73,6 +85,12 @@
 .textbox{
     width: 527px;
     height: 575px;
+    padding: 40px;
+}
+
+.textbox2{
+    width: 527px;
+    height: 321px;
     padding: 40px;
 }
 
