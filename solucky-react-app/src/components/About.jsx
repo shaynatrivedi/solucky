@@ -43,9 +43,23 @@ const About = () => {
         </section>
 
         <section className='section section3'>
+          <img className='about-image-4' src='../Assets/About/2.png' alt='overlap-image' ></img> 
+          <img className='about-image-5' src='../Assets/About/10.png' alt='overlap-image' ></img> 
+          <img className='about-image-6' src='../Assets/About/4.png' alt='overlap-image' ></img> 
         </section>
 
         <section className='section section4'>
+          <div className='about-message story-message'>
+            <div className='textbox2'>
+              <h1>Our Story</h1>
+              <p>
+              Initially envisioned as a blog to share the Founder’s creative passions with
+              loved ones, solucky took an unexpected turn just before its launch. Collaborating
+              with close friends to offer limited-time items, the brand swiftly transformed into
+              the multi-dimensional creative force it is today.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className='section section5'>

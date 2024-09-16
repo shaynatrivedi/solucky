@@ -56,8 +56,16 @@
     height: fit-content;
     margin-left: 808px;
     position: absolute;
-    bottom: -150px;
+    bottom: -164px;
     z-index: 2;
+}
+
+.story-message{
+    background-color:#D6B917; ;
+    height: fit-content;
+    position:absolute;
+    margin-left: 821px;
+    margin-top: 361px;
 }
 
 .about-message h1{
@@ -117,3 +125,25 @@
     margin-top: 558px;
     z-index: 1;
 }
+
+.about-image-4{
+    position: absolute;
+    margin-left: 492px;
+    margin-top: 1048px;
+    z-index: 2;
+}
+
+.about-image-5{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 441px;
+    z-index: 1;
+}
+
+.about-image-6{
+    position: absolute;
+    margin-left: 80px;
+    bottom: -280px;
+    z-index: 1;
+}
+
