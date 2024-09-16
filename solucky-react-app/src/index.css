@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&family=DM+Serif+Text&family=PT+Serif:wght@400;700&display=swap');
+
 body {
   font-family: 'Georgia', serif;
   margin: 0;
@@ -8,4 +10,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.text-dm-serif {
+  font-family: 'DM Serif Text', serif; /* Apply DM Serif Text font */
+}
+
+.text-pt-serif {
+  font-family: 'PT Serif', serif; /* Apply PT Serif font */
+}
+
+.para-bai-jamjuree {
+  font-family: 'Bai Jamjuree', sans-serif; 
+  text-indent: 30px;
 }
