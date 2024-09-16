@@ -12,11 +12,11 @@ const About = () => {
               <h1 className='text-pt-serif'>From the Founder</h1>
               <p className='para-bai-jamjuree'>
               Sanjana Solanki, a Bay Area native & 2024 Business Administration
-              graduate from San Jose State University, created solucky as a creative
+              graduate from San Jose State University, created <i>solucky</i> as a creative
               outlet. Her passions for fashion, film, organization, decoration, & 
               makeup, along with her South Asian heritage, consistently shape the 
               brand’s unique vision. Hobbies like thrifting, decorating, & photography 
-              inspired her to create solucky, allowing her to showcase these interests
+              inspired her to create <i>solucky</i>, allowing her to showcase these interests
               & collaborate with some of the most dedicated & hardworking people she
               has ever met.
               </p>
@@ -35,7 +35,7 @@ const About = () => {
               <p className='para-bai-jamjuree'>
               Founded by Sanjana in August 2020, the brand draws its name from a cherished 
               childhood memory. Inspired by her father's endearing reference to their family
-              as "so-lucky," the name "solucky" was chosen to reflect a personal connection
+              as "so-lucky," the name "<i>solucky</i>" was chosen to reflect a personal connection
               & resonate as a catchy, memorable brand identity.
               </p>
             </div>
@@ -54,7 +54,7 @@ const About = () => {
               <h1 className='text-pt-serif'>Our Story</h1>
               <p className='para-bai-jamjuree'>
               Initially envisioned as a blog to share the Founder’s creative passions with
-              loved ones, solucky took an unexpected turn just before its launch. Collaborating
+              loved ones, <i>solucky</i> took an unexpected turn just before its launch. Collaborating
               with close friends to offer limited-time items, the brand swiftly transformed into
               the multi-dimensional creative force it is today.
               </p>
