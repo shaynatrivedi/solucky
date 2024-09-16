@@ -9,8 +9,8 @@ const About = () => {
         <section className='section section1'>  
           <div className='about-message founder-message'>
             <div className='textbox'>
-              <h1>From the Founder</h1>
-              <p>
+              <h1 className='text-pt-serif'>From the Founder</h1>
+              <p className='para-bai-jamjuree'>
               Sanjana Solanki, a Bay Area native & 2024 Business Administration
               graduate from San Jose State University, created solucky as a creative
               outlet. Her passions for fashion, film, organization, decoration, & 
@@ -31,8 +31,8 @@ const About = () => {
 
           <div className='about-message brand-message'>
             <div className='textbox2'>
-              <h1>The Brand</h1>
-              <p>
+              <h1 className='text-pt-serif'>The Brand</h1>
+              <p className='para-bai-jamjuree'>
               Founded by Sanjana in August 2020, the brand draws its name from a cherished 
               childhood memory. Inspired by her father's endearing reference to their family
               as "so-lucky," the name "solucky" was chosen to reflect a personal connection
@@ -51,8 +51,8 @@ const About = () => {
         <section className='section section4'>
           <div className='about-message story-message'>
             <div className='textbox2'>
-              <h1>Our Story</h1>
-              <p>
+              <h1 className='text-pt-serif'>Our Story</h1>
+              <p className='para-bai-jamjuree'>
               Initially envisioned as a blog to share the Founder’s creative passions with
               loved ones, solucky took an unexpected turn just before its launch. Collaborating
               with close friends to offer limited-time items, the brand swiftly transformed into
