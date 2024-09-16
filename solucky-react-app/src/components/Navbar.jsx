@@ -5,9 +5,9 @@ import './Navbar.css';
 const Navbar = () =>{
     return(
         <nav className="navbar">
-            <div className="header">
+            <div className="header text-dm-serif">
                 <h1 className="title">solucky</h1>
-                <h3 className="titleCaption">est.2020</h3>
+                <h3 className="titleCaption"><i>est.2020</i></h3>
             </div>
            
            <ul className="navList">
