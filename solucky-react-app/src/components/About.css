@@ -72,7 +72,7 @@
 
 .about-message h1{
     color: #FFF;
-    font-size: 85px;
+    font-size: clamp(2rem, 5vw, 5.3rem); /* Scales font size based on screen width */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -82,7 +82,7 @@
 
 .about-message p{
     color: #FFF;
-    font-size: 25px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
