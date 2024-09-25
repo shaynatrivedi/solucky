@@ -25,6 +25,7 @@
     gap: 60px;
     justify-content: center ;
     padding-left: 0px;
+    flex-wrap: wrap;
 }
 
 .navbar .navList a{
@@ -53,3 +54,44 @@
     width: 100%; /* **Expand the underline fully across the text** */
     left: 0; /* **Move it to the left to fill the entire width** */
   }
+
+  /* Responsive adjustments for smaller screens */
+@media screen and (max-width: 1200px) {
+    .navbar .navList {
+        gap: 40px; /* Decrease the gap between items */
+    }
+
+    .navbar .navList a {
+        font-size: 22px; /* Slightly smaller font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar .navList {
+        gap: 20px; /* Reduce gap further for even smaller screens */
+    }
+
+    .navbar .navList a {
+        font-size: 18px; /* Decrease font size further */
+    }
+
+    .navbar .header .title {
+        font-size: 28px; /* Reduce title size for small screens */
+    }
+
+    .navbar .header .titleCaption {
+        font-size: 16px; /* Adjust caption size */
+    }
+}
+
+/* Extra small screens (like small tablets) */
+@media screen and (max-width: 600px) {
+    .navbar .navList {
+        flex-direction: column; /* Stack the nav items vertically */
+        gap: 15px;
+    }
+
+    .navbar .navList a {
+        font-size: 16px;
+    }
+}
