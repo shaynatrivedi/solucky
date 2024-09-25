@@ -102,11 +102,11 @@
 
 .about-image-1{
     position: absolute;
-    bottom: -414px; /* Place it 50px below section1's bottom to overlap section2 */
-    margin-left: 941px;
+    top: 87%; /* Place it 50px below section1's bottom to overlap section2 */
+    margin-left: 62%;
     z-index: 2;
-    width: 500px;
-    height: 666.728px;
+    width: 33vw;
+    height: auto;
     flex-shrink: 0;
 }
 
