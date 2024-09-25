@@ -47,19 +47,21 @@
 
 .brand-message{
     background-color: #75C3F5;
+    margin-left: 53.4%;
+    top:84.5%;
+    width: 40vw;
     height: fit-content;
-    margin-left: 808px;
     position: absolute;
-    bottom: -164px;
     z-index: 2;
 }
 
 .story-message{
-    background-color:#D6B917; ;
+    background-color:#D6B917; 
+    margin-left: 54.2%;
+    top:17.7%;
+    width: 40vw;
     height: fit-content;
-    position:absolute;
-    margin-left: 821px;
-    margin-top: 361px;
+    position: absolute;
 }
 
 .about-message{
@@ -112,36 +114,46 @@
 
 .about-image-2{
     position: absolute;
-    margin-left: 356px;
-    margin-top: 357px;
+    margin-left: 23.5%;
+    top: 25.2%;
+    width: 26.5vw;
+    height: auto;
     z-index: 2;
 }
 
 .about-image-3{
     position: absolute;
-    margin-left: 61px;
-    margin-top: 558px;
+    margin-left: 4%;
+    top: 39.4%;
+    width: 26.2vw;
+    height: auto;
     z-index: 1;
 }
 
 .about-image-4{
     position: absolute;
-    margin-left: 492px;
-    margin-top: 1048px;
+    margin-left: 32.5%;
+    top:52%;
+    width: 29.7vw;
+    height: auto;
     z-index: 2;
 }
 
 .about-image-5{
     position: absolute;
-    margin-left: 30px;
-    margin-top: 441px;
+    margin-left:2%;
+    top: 22%;
+    width: 37.6vw;
+    height:auto;
     z-index: 1;
 }
 
 .about-image-6{
     position: absolute;
-    margin-left: 80px;
-    bottom: -280px;
+    margin-left:5%;
+    top: 86%;
+    width: 46.2vw;
+    height:auto;
     z-index: 1;
 }
 
