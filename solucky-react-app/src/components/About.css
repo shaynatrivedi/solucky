@@ -39,12 +39,6 @@
     min-height: 40vh;
 }
 
-.about-message{
-    color: white;
-    display: flex;
-    text-align: left;
-}
-
 .founder-message{
     background-color: #75962D;
     margin-left: 96px;
@@ -66,6 +60,12 @@
     position:absolute;
     margin-left: 821px;
     margin-top: 361px;
+}
+
+.about-message{
+    color: white;
+    display: flex;
+    text-align: left;
 }
 
 .about-message h1{
