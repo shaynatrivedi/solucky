@@ -30,3 +30,26 @@
     color: white;
     width:750px;
 }
+
+.join-card-buttons{
+    width: 713px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+
+.apply-buttons{
+    display: flex;
+}
+
+button{
+    display: flex;
+    width: 345px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 35px;
+    background: #FFF;
+}
