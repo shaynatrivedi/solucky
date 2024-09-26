@@ -1,5 +1,4 @@
 .navbar{
-    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -7,7 +6,6 @@
     width: 100%;
     z-index: 999;
 }
-
 
 .navbar .header .title{
     font-size: 35px;
@@ -53,7 +51,25 @@
 .navbar .navList a:hover:after {
     width: 100%; /* **Expand the underline fully across the text** */
     left: 0; /* **Move it to the left to fill the entire width** */
-  }
+}
+
+.navList a.active::after {
+    width: 100%;
+    left: 0;
+}
+
+.team-page-navbar .header{
+    color: white;
+}
+
+.team-page-navbar .navList a {
+    color: white; /* Change the font color to white */
+}
+
+.team-page-navbar .navList a::after {
+    background: white; /* Change the underline color to white */
+}
+
 
   /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 1200px) {
@@ -95,3 +111,4 @@
         font-size: 16px;
     }
 }
+
