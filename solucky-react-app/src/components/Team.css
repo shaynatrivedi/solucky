@@ -17,6 +17,8 @@
 }
 
 .join-card{
+    margin-top: 301px;
+    width: 1256px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,4 +28,5 @@
 
 .join-card-text{
     color: white;
+    width:750px;
 }
