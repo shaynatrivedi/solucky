@@ -8,7 +8,7 @@ const Team = () =>{
                 <div className="join-card">
                     <div className="join-card-text">
                         <h1>Our Team</h1>
-                        <h3>What does a team contributor do?</h3>
+                        <h3><i>What does a team contributor do?</i></h3>
                         <p>
                             Our volunteers dedicate their time & effort to making 
                             the brand what it is today while gaining valuable creative
