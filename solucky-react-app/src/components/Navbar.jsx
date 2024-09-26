@@ -16,7 +16,7 @@ const Navbar = () =>{
             <li><Link to="">media</Link></li>
             <li><Link to="">collabs</Link></li>
             <li><Link to="">events</Link></li>
-            <li><Link to="">team</Link></li>
+            <li><Link to="/team">team</Link></li>
             <li><Link to="/about">about</Link></li>
            </ul>
         </nav>
