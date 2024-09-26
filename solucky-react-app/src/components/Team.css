@@ -1,3 +1,17 @@
-.header{
-    font-size: x-large;
+.team-join{
+    background-image: url('/public/Assets/Team/team-bg-1.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: top;
+    min-height: 982px; 
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; 
+}
+
+.team-members{
+    background-color: #F4ECE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
