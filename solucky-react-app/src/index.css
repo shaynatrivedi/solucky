@@ -24,3 +24,30 @@ code {
   font-family: 'Bai Jamjuree', sans-serif; 
   text-indent: 30px;
 }
+
+.centered-p-bai-jamjuree{
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.team-title{
+  font-family: "PT Serif";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.team-title-caption{
+  text-align: center;
+  font-family: "PT Serif";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
