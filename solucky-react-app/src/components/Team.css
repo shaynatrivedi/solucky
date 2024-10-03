@@ -68,3 +68,35 @@ a{
     width: 228px;
     margin-right: 15px;
 }
+
+.main-team-card{
+    margin-top:172px;
+    display: flex;
+    width: 1383px;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    height: 2000px;
+}
+
+.team-title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.team-title-caption{
+    color: #000;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
