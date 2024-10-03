@@ -41,6 +41,7 @@
 
 .apply-buttons{
     display: flex;
+    gap:23px;
 }
 
 button{
@@ -52,4 +53,8 @@ button{
     gap: 10px;
     border-radius: 35px;
     background: #FFF;
+}
+
+.team-title-caption{
+    margin:0px;
 }
