@@ -58,3 +58,6 @@ button{
 .team-title-caption{
     margin:0px;
 }
+ a{
+     text-decoration: none;
+ }
