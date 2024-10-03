@@ -17,13 +17,19 @@ const Team = () =>{
                     </div>
                     <div className="join-card-buttons">
                         <h3 className="join-header team-title-caption"><i>Want to join our team?</i></h3>
-                        <div className="apply-buttons">
+                        <div className="apply-button-section">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
-                                <button type="button"><p className="apply-textbox centered-p-bai-jamjuree">Apply to be a <i>solucky</i> contributor</p></button>
+                                <button type="button">
+                                    <p className="apply-textbox centered-p-bai-jamjuree">apply to be a <i>solucky</i> contributor</p>
+                                    <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
+                                </button>
                             </a>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
-                                <button type="button"><p className="apply-textbox centered-p-bai-jamjuree">Apply to be a <i>solucky</i> model</p></button>
+                                <button type="button">
+                                    <p className="apply-textbox centered-p-bai-jamjuree">apply to be a <i>solucky</i> model</p>
+                                    <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
+                                </button>
                             </a>
                         </div>
                     </div>
