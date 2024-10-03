@@ -19,11 +19,11 @@ const Team = () =>{
                         <h3 className="join-header team-title-caption"><i>Want to join our team?</i></h3>
                         <div className="apply-buttons">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
-                                <button type="button">Apply to be a <i>solucky</i> contributor</button>
+                                <button type="button"><p className="apply-textbox centered-p-bai-jamjuree">Apply to be a <i>solucky</i> contributor</p></button>
                             </a>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
-                                <button type="button">Apply to be a <i>solucky</i> model</button>
+                                <button type="button"><p className="apply-textbox centered-p-bai-jamjuree">Apply to be a <i>solucky</i> model</p></button>
                             </a>
                         </div>
                     </div>
