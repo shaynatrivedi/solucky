@@ -46,7 +46,22 @@ const Team = () =>{
                         </p>
                     </div>
                     
-                    <h1>that smellshit</h1>
+                    <div className="brand-operations">
+                        <div className="brand-operations-header">
+                            <h3 className="brand-operations-title">Brand Operations</h3>
+                            <div className="horizontal-scroll-buttons">
+                                <button>left</button>
+                                <button>right</button>
+                            </div>
+                        </div>
+
+                        <div className="brand-operations-gallery">
+
+                        </div>
+
+                    </div>
+
+
                     <h1>that smellshit</h1>
                     <h1>that smellshit</h1>
                     <h1>that smellshit</h1>
