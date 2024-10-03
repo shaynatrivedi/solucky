@@ -38,11 +38,20 @@ const Team = () =>{
             </section>
 
             <section className="team-members">
-                <h1>more to come</h1>
-                <h1>more to come</h1>
-                <h1>more to come</h1>
-                <h1>more to come</h1>
-                <h1>more to come</h1>
+                <div className="main-team-card">
+                    <div className="main-team-card-header">
+                        <h1 className="team-title">current team members</h1>
+                        <p className="team-title-caption">
+                        *Click on any team member's photo to visit their Instagram
+                        </p>
+                    </div>
+                    
+                    <h1>that smellshit</h1>
+                    <h1>that smellshit</h1>
+                    <h1>that smellshit</h1>
+                    <h1>that smellshit</h1>
+                    <h1>that smellshit</h1>
+                </div>
             </section>
         </div>
     );
