@@ -39,15 +39,16 @@
     gap: 27px;
 }
 
-.apply-buttons{
+.apply-button-section{
     display: flex;
     gap:23px;
 }
 
 button{
-    display: flex;
     width: 345px;
-    padding: 20px 30px;
+    height: auto;
+    border-color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -58,6 +59,12 @@ button{
 .team-title-caption{
     margin:0px;
 }
- a{
+ 
+a{
      text-decoration: none;
  }
+
+.apply-textbox{
+    width: 228px;
+    margin-right: 15px;
+}
