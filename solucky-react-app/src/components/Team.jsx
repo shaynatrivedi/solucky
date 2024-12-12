@@ -67,15 +67,204 @@ const Team = () =>{
 
                     <div className="founder">
                         <h3 className="team-position-title">Founder</h3>
-                    
+                        <div className="post-div">
+                            <div className="post-header">
+                                <div className="post-left-group">
+                                    <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                    <p className="post-account-name">solucky.life</p>
+                                </div>
+                                <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                            </div>
+                            <img className='post-image' src='../Assets/Team/Team-Pictures/SanjanaSolanki.png' alt='founder-image'></img>
+
+                            <div className="post-bottom-div">
+                                <div className="post-icons">
+                                    <div className="post-icons-left-group">
+                                        <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                        <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                        <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                    </div>
+                                    <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                </div>
+                        
+                                <div className="post-text">
+                                    <p>
+                                       <span className="post-account-name">
+                                        solucky.life </span> 
+                                        MEET SANJANA SOLANKI (she/her) 🦚 
+                                        <span className="specific-position">The Founder</span> 
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
                     </div>
                     
                     <div className="brand-operations">
                         <div className="brand-operations-header">
                             <h3 className="team-position-title">Brand Operations</h3>
-                            <div className="horizontal-scroll-buttons">
-                                <button className="scroll-buttons">left</button>
-                                <button className="scroll-buttons">right</button>
+                            <div className="horizontal-scroll-section">
+                                <div className="post-div">
+                                    <div className="post-header">
+                                        <div className="post-left-group">
+                                            <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                            <p className="post-account-name">solucky.life</p>
+                                        </div>
+                                        <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                                    </div>
+                                    <img className='post-image' src='../Assets/Team/Team-Pictures/ShayariSaha.png' alt='founder-image'></img>
+
+                                    <div className="post-bottom-div">
+                                        <div className="post-icons">
+                                            <div className="post-icons-left-group">
+                                                <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                                <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                                <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                            </div>
+                                            <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                        </div>
+                                
+                                        <div className="post-text">
+                                            <p>
+                                            <span className="post-account-name">
+                                                solucky.life </span> 
+                                                MEET SHAYARI SAHA (she/her) 🐳 
+                                                <span className="specific-position">Producer</span> 
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="post-div">
+                                    <div className="post-header">
+                                        <div className="post-left-group">
+                                            <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                            <p className="post-account-name">solucky.life</p>
+                                        </div>
+                                        <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                                    </div>
+                                    <img className='post-image' src='../Assets/Team/Team-Pictures/AnujaPandit.png' alt='founder-image'></img>
+
+                                    <div className="post-bottom-div">
+                                        <div className="post-icons">
+                                            <div className="post-icons-left-group">
+                                                <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                                <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                                <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                            </div>
+                                            <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                        </div>
+                                
+                                        <div className="post-text">
+                                            <p>
+                                            <span className="post-account-name">
+                                                solucky.life </span> 
+                                                MEET ANJUA PANDIT (she/her) 🤍
+                                                <span className="specific-position">Assistant Creative Director</span> 
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="post-div">
+                                    <div className="post-header">
+                                        <div className="post-left-group">
+                                            <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                            <p className="post-account-name">solucky.life</p>
+                                        </div>
+                                        <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                                    </div>
+                                    <img className='post-image' src='../Assets/Team/Team-Pictures/AlinaJafri.png' alt='founder-image'></img>
+
+                                    <div className="post-bottom-div">
+                                        <div className="post-icons">
+                                            <div className="post-icons-left-group">
+                                                <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                                <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                                <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                            </div>
+                                            <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                        </div>
+                                
+                                        <div className="post-text">
+                                            <p>
+                                            <span className="post-account-name">
+                                                solucky.life </span> 
+                                                MEET ALINA JAFRI (she/her) 🌺
+                                                <span className="specific-position">Assistant Creative Director</span> 
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="post-div">
+                                    <div className="post-header">
+                                        <div className="post-left-group">
+                                            <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                            <p className="post-account-name">solucky.life</p>
+                                        </div>
+                                        <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                                    </div>
+                                    <img className='post-image' src='../Assets/Team/Team-Pictures/AmaniChowdhury.png' alt='founder-image'></img>
+
+                                    <div className="post-bottom-div">
+                                        <div className="post-icons">
+                                            <div className="post-icons-left-group">
+                                                <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                                <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                                <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                            </div>
+                                            <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                        </div>
+                                
+                                        <div className="post-text">
+                                            <p>
+                                            <span className="post-account-name">
+                                                solucky.life </span> 
+                                                MEET AMANI CHOWDHURY (she/her) 🐬
+                                                <span className="specific-position">Consultant</span> 
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="post-div">
+                                    <div className="post-header">
+                                        <div className="post-left-group">
+                                            <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                            <p className="post-account-name">solucky.life</p>
+                                        </div>
+                                        <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                                    </div>
+                                    <img className='post-image' src='../Assets/Team/Team-Pictures/AnanyaDutta.png' alt='founder-image'></img>
+
+                                    <div className="post-bottom-div">
+                                        <div className="post-icons">
+                                            <div className="post-icons-left-group">
+                                                <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                                <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                                <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                            </div>
+                                            <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                        </div>
+                                
+                                        <div className="post-text">
+                                            <p>
+                                            <span className="post-account-name">
+                                                solucky.life </span> 
+                                                MEET ANANYA DUTTA (she/her) ❣️
+                                                <span className="specific-position">Consultant</span> 
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+    
                             </div>
                         </div>
 
