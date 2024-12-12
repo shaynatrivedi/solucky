@@ -54,7 +54,6 @@ const Team = () =>{
                         <img className='bts-image-2' src='../Assets/Team/BTS/image2.png' alt='film-image' ></img>
                     </div>
                 </div>
-
             </section>
 
             <section className="team-members">
@@ -65,10 +64,15 @@ const Team = () =>{
                         *Click on any team member's photo to visit their Instagram
                         </p>
                     </div>
+
+                    <div className="founder">
+                        <h3 className="team-position-title">Founder</h3>
+                    
+                    </div>
                     
                     <div className="brand-operations">
                         <div className="brand-operations-header">
-                            <h3 className="brand-operations-title">Brand Operations</h3>
+                            <h3 className="team-position-title">Brand Operations</h3>
                             <div className="horizontal-scroll-buttons">
                                 <button className="scroll-buttons">left</button>
                                 <button className="scroll-buttons">right</button>
@@ -81,11 +85,26 @@ const Team = () =>{
 
                     </div>
 
+                    <div className="production">
+                        <h3 className="team-position-title">Production</h3>
+                    
+                    </div>
 
-                    <h1>that smellshit</h1>
-                    <h1>that smellshit</h1>
-                    <h1>that smellshit</h1>
-                    <h1>that smellshit</h1>
+                    <div className="social-media">
+                        <h3 className="team-position-title">Social media</h3>
+                    
+                    </div>
+
+                    <div className="magazine-publishing">
+                        <h3 className="team-position-title">Magazine Publishing</h3>
+                    
+                    </div>
+
+                    <div className="aesthetic-photographers">
+                        <h3 className="team-position-title">Aesthetic photographers</h3>
+                    
+                    </div>
+                    
                 </div>
             </section>
         </div>
