@@ -110,3 +110,29 @@ a{
     line-height: normal;
     text-transform: uppercase;
 }
+
+.behind-the-scenes{
+    background-color: #3D2F2D;
+    height: 291px;
+}
+
+.bts-title{
+    color:#F4ECE2;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top:27px;
+}
+
+.bts-images{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 99vw ;
+    height: 172px;
+}
