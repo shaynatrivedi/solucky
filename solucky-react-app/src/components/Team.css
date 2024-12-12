@@ -94,18 +94,18 @@ a{
 
 .team-operations-title-caption{
     color: #000;
-    font-family: "Bai Jamjuree";
+    font-family: Georgia;
     font-size: 25px;
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.brand-operations-title{
+.team-position-title{
     color: #000;
-    font-family: "PT Serif";
+    font-family: Georgia;
     font-size: 35px;
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
