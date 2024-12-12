@@ -8,12 +8,18 @@
     align-items: center; 
 }
 
+.team-page {
+    overflow-x: hidden; /* Prevent horizontal overflow on the page */
+}
+
 .team-members{
-    background-color: #F4ECE2;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%; /* Ensure it spans the entire viewport width */
+    box-sizing: border-box; /* Include padding and borders in width calculations */
 }
 
 .join-card{
@@ -70,17 +76,16 @@ a{
 }
 
 .main-team-card{
-    margin-top:172px;
+    margin-top:102px;
     display: flex;
     width: 1383px;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
     height: 2000px;
 }
 
 .team-operations-title{
-    color: rgb(0, 0, 0);
+    color: #000;
     text-align: center;
     font-family: "PT Serif";
     font-size: 55px;
@@ -88,15 +93,13 @@ a{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-top: 0px;
-    margin-bottom: 15px;
 }
 
 .team-operations-title-caption{
     color: #000;
-    font-family: Georgia;
+    font-family: "Bai Jamjuree";
     font-size: 25px;
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
     line-height: normal;
 }
@@ -136,3 +139,122 @@ a{
     width: 99vw ;
     height: 172px;
 }
+
+.post-div{
+    width: 375px;
+    height: 534px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-image{
+    width: 375px;
+    height: 375px;
+}
+
+.post-header{
+    height: 54px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right:15px;
+}
+
+.post-left-group{
+    display: flex;
+    width: 114px;
+    height: 32px;
+    flex-shrink: 0;
+    align-items: center;
+    gap:5px;
+}
+.post-account-name{
+    color: #262626;
+    font-family: "SF Pro Text";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: -0.1px;
+}
+
+.post-bottom-div{
+    width: 346px;
+    height: 74.152px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.post-icons{
+    width: 345.363px;
+    height: 23.152px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-icons-left-group{
+    display: flex;
+    gap:17.5px;
+}
+
+.post-text{
+    color: #262626;
+    font-family: "SF Pro Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07px;
+    text-align: start;
+}
+
+.horizontal-scroll-section {
+    display: flex;
+    gap: 50px; /* Space between post-divs */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden;
+    white-space: nowrap; /* Prevent line breaks for child elements */
+    padding: 20px;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    max-width: 100%; /* Restrict width to prevent overflow */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.horizontal-scroll-section::-webkit-scrollbar {
+    height: 10px; /* Customize scrollbar height */
+}
+
+.horizontal-scroll-section::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Scrollbar color */
+    border-radius: 5px;
+}
+
+.horizontal-scroll-section::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+}
+
+.specific-position{
+    display: block;
+}
+
+.more-icon{
+    width: 14px;
+    height: 3px;
+}
+
+.solucky-icon{
+    height: 32px;
+    width: 32px;
+}
+
+.founder{
+    padding-bottom: 50px;
+}
+
