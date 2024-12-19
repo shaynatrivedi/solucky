@@ -39,19 +39,74 @@ const Team = () =>{
 
             <section className="behind-the-scenes">
                 <div className="bts-container">
-                    <h3 className="bts-title"> BEHIND THE SCENES</h3>
-                    <div className="bts-images">
-                        <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                        <img className='bts-image-2' src='../Assets/Team/BTS/image2.png' alt='film-image' ></img>
-                        <img className='bts-image-3' src='../Assets/Team/BTS/image3.png' alt='film-image' ></img>
-                        <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                        <img className='bts-image-2' src='../Assets/Team/BTS/image2.png' alt='film-image' ></img>
-                        <img className='bts-image-3' src='../Assets/Team/BTS/image3.png' alt='film-image' ></img>
-                        <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                        <img className='bts-image-2' src='../Assets/Team/BTS/image2.png' alt='film-image' ></img>
-                        <img className='bts-image-3' src='../Assets/Team/BTS/image3.png' alt='film-image' ></img>
-                        <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                        <img className='bts-image-2' src='../Assets/Team/BTS/image2.png' alt='film-image' ></img>
+                    <div className="film-reel">
+                        <div class="squares">              
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                        <div className="bts-images">
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
+                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img> 
+                        </div>
+                        <div class="squares">              
+                        <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
                     </div>
                 </div>
             </section>
