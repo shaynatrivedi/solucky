@@ -9,11 +9,17 @@ const Team = () =>{
                     <div className="join-card-text">
                         <h1 className="team-title">Our Team</h1>
                         <h3 className="team-title-caption"><i>What does a team contributor do?</i></h3>
-                        <p className="centered-p-bai-jamjuree">
+                        <p className="contributor-info">
                             Our volunteers dedicate their time & effort to making 
                             the brand what it is today while gaining valuable creative
                             work experience in their fields of interest.
                         </p>
+                        <a href="https://www.youtube.com/watch?v=y6120QOlsfU">
+                            <button type="button">
+                                <p className="apply-textbox centered-p-bai-jamjuree">view bts photos</p>
+                                <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
+                            </button>
+                        </a>
                     </div>
                     <div className="join-card-buttons">
                         <h3 className="join-header team-title-caption"><i>Want to join our team?</i></h3>
@@ -646,7 +652,7 @@ const Team = () =>{
                                     </div>
                                     <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
                                 </div>
-                                <img className='post-image' src='../Assets/Team/Team-Pictures/AlinaJafri.png.png' alt='founder-image'></img>
+                                <img className='post-image' src='../Assets/Team/Team-Pictures/AlinaJafri.png' alt='founder-image'></img>
 
                                 <div className="post-bottom-div">
                                     <div className="post-icons">
@@ -678,7 +684,7 @@ const Team = () =>{
                                     </div>
                                     <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
                                 </div>
-                                <img className='post-image' src='../Assets/Team/Team-Pictures/SaajaySingh.png.png' alt='founder-image'></img>
+                                <img className='post-image' src='../Assets/Team/Team-Pictures/SaajaySingh.png' alt='founder-image'></img>
 
                                 <div className="post-bottom-div">
                                     <div className="post-icons">
@@ -710,7 +716,7 @@ const Team = () =>{
                                     </div>
                                     <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
                                 </div>
-                                <img className='post-image' src='../Assets/Team/Team-Pictures/HazoorAnand.png.png' alt='founder-image'></img>
+                                <img className='post-image' src='../Assets/Team/Team-Pictures/HazoorAnand.png' alt='founder-image'></img>
 
                                 <div className="post-bottom-div">
                                     <div className="post-icons">
@@ -742,7 +748,7 @@ const Team = () =>{
                                     </div>
                                     <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
                                 </div>
-                                <img className='post-image' src='../Assets/Team/Team-Pictures/HenryPham.png.png' alt='founder-image'></img>
+                                <img className='post-image' src='../Assets/Team/Team-Pictures/HenryPham.png' alt='founder-image'></img>
 
                                 <div className="post-bottom-div">
                                     <div className="post-icons">
