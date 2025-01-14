@@ -10,7 +10,7 @@ const About = () => {
           <div className='about-message founder-message'>
             <div className='textbox'>
               <h1 className='text-pt-serif'>From the Founder</h1>
-              <p className='para-bai-jamjuree'>
+              <p className='paragraph-message'>
               Sanjana Solanki, a Bay Area native & 2024 Business Administration
               graduate from San Jose State University, created <i>solucky</i> as a creative
               outlet. Her passions for fashion, film, organization, decoration, & 
@@ -26,13 +26,16 @@ const About = () => {
         </section>
         
         <section className='section section2'>
-          <img className='about-image-2' src='../Assets/About/3.png' alt='overlap-image' ></img> 
-          <img className='about-image-3' src='../Assets/About/6.png' alt='overlap-image' ></img> 
+          <div className='overlapping-container'>
+            <img className='about-image-2' src='../Assets/About/3.png' alt='overlap-image' ></img> 
+            <img className='about-image-3' src='../Assets/About/6.png' alt='overlap-image' ></img> 
+          </div>
+          
 
           <div className='about-message brand-message'>
             <div className='textbox2'>
               <h1 className='text-pt-serif'>The Brand</h1>
-              <p className='para-bai-jamjuree'>
+              <p className='paragraph-message'>
               Founded by Sanjana in August 2020, the brand draws its name from a cherished 
               childhood memory. Inspired by her father's endearing reference to their family
               as "so-lucky," the name "<i>solucky</i>" was chosen to reflect a personal connection
@@ -43,8 +46,10 @@ const About = () => {
         </section>
 
         <section className='section section3'>
-          <img className='about-image-4' src='../Assets/About/2.png' alt='overlap-image' ></img> 
-          <img className='about-image-5' src='../Assets/About/10.png' alt='overlap-image' ></img> 
+          <div className='overlapping-container2'>
+            <img className='about-image-4' src='../Assets/About/2.png' alt='overlap-image' ></img> 
+            <img className='about-image-5' src='../Assets/About/10.png' alt='overlap-image' ></img>
+          </div>
           <img className='about-image-6' src='../Assets/About/4.png' alt='overlap-image' ></img> 
         </section>
 
@@ -52,7 +57,7 @@ const About = () => {
           <div className='about-message story-message'>
             <div className='textbox2'>
               <h1 className='text-pt-serif'>Our Story</h1>
-              <p className='para-bai-jamjuree'>
+              <p className='paragraph-message'>
               Initially envisioned as a blog to share the Founder’s creative passions with
               loved ones, <i>solucky</i> took an unexpected turn just before its launch. Collaborating
               with close friends to offer limited-time items, the brand swiftly transformed into
