@@ -33,83 +33,9 @@ const Team = () =>{
                             </a>
                         </div>
                     </div>
-                </div>
-                
+                </div>     
             </section>
 
-            <section className="behind-the-scenes">
-                <div className="bts-container">
-                    <div className="film-reel">
-                        <div class="squares">              
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                        </div>
-                        <div className="bts-images">
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img>
-                            <img className='bts-image-1' src='../Assets/Team/BTS/image1.png' alt='film-image' ></img> 
-                        </div>
-                        <div class="squares">              
-                        <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                            <div class="square"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section className="team-members">
                 <div className="main-team-card">
