@@ -67,10 +67,10 @@ const Team = () =>{
                             <h3 className="team-position-title">Brand Operations</h3>
                             <div className="scroll-buttons">
                                 <button className="scroll-left" onClick={() => scrollLeft('brand-operations')}>
-                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                                 <button className="scroll-right" onClick={() => scrollRight('brand-operations')}>
-                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
                             <div className="horizontal-scroll-section brand-operations">
@@ -402,10 +402,10 @@ const Team = () =>{
                             <h3 className="team-position-title">Production</h3>
                             <div className="scroll-buttons">
                                 <button className="scroll-left" onClick={() => scrollLeft('production')}>
-                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                                 <button className="scroll-right" onClick={() => scrollRight('production')}>
-                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
                             <div className="horizontal-scroll-section production">
@@ -934,10 +934,10 @@ const Team = () =>{
                             <h3 className="team-position-title">Magazine Publishing</h3>
                             <div className="scroll-buttons">
                                 <button className="scroll-left" onClick={() => scrollLeft('magazine-publishing')}>
-                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                                 <button className="scroll-right" onClick={() => scrollRight('magazine-publishing')}>
-                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
                             <div className="horizontal-scroll-section magazine-publishing">
@@ -1236,10 +1236,10 @@ const Team = () =>{
                             <h3 className="team-position-title">Aesthetic Photographers</h3>
                             <div className="scroll-buttons">
                                 <button className="scroll-left" onClick={() => scrollLeft('aesthetic-photographers')}>
-                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                                 <button className="scroll-right" onClick={() => scrollRight('aesthetic-photographers')}>
-                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
                             <div className="horizontal-scroll-section aesthetic-photographers">

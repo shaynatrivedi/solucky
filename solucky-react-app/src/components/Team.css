@@ -331,9 +331,14 @@ text-align: center;
 
 .scroll-left,
 .scroll-right {
+    all: unset; /* Resets all default styles */
     height:26px;
     width:43px;
     border-radius: 10px 5px 5px 10px;
     background: #FFF;
-    box-shadow: none;
+    box-shadow: none; /* Removes any remaining shadow */
+    cursor: pointer; /* Reapply desired styles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
