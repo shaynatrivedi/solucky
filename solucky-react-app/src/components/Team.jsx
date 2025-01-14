@@ -362,10 +362,13 @@ const Team = () =>{
                         </div>
                     </div>
 
-                    <div className="production">
-                        <h3 className="team-position-title">Production</h3>
-                        <div className="horizontal-scroll-section">
-
+                    <div className="team-category">
+                            <h3 className="team-position-title">Production</h3>
+                            <div className="scroll-buttons">
+                                <button className="scroll-left" onClick={() => scrollLeft('production')}>◀</button>
+                                <button className="scroll-right" onClick={() => scrollRight('production')}>▶</button>
+                            </div>
+                            <div className="horizontal-scroll-section production">
                             <div className="post-div">
                                 <div className="post-header">
                                     <div className="post-left-group">
@@ -781,14 +784,12 @@ const Team = () =>{
                                     
                                 </div>
                             </div>
-                            
-
                         </div>
                     </div>
 
                     <div className="social-media">
                         <h3 className="team-position-title">Social media</h3>
-                        <div className="horizontal-scroll-section">
+                        <div className="horizontal-scroll-section-noscroll">
 
                             <div className="post-div">
                                 <div className="post-header">
@@ -889,10 +890,13 @@ const Team = () =>{
                         </div>
                     </div>
 
-                    <div className="magazine-publishing">
-                        <h3 className="team-position-title">Magazine Publishing</h3>
-                        <div className="horizontal-scroll-section">
-
+                    <div className="team-category">
+                            <h3 className="team-position-title">Magazine Publishing</h3>
+                            <div className="scroll-buttons">
+                                <button className="scroll-left" onClick={() => scrollLeft('magazine-publishing')}>◀</button>
+                                <button className="scroll-right" onClick={() => scrollRight('magazine-publishing')}>▶</button>
+                            </div>
+                            <div className="horizontal-scroll-section magazine-publishing">
                             <div className="post-div">
                                 <div className="post-header">
                                     <div className="post-left-group">
@@ -1184,9 +1188,13 @@ const Team = () =>{
                         </div>
                     </div>
 
-                    <div className="aesthetic-photographers">
-                        <h3 className="team-position-title">Aesthetic photographers</h3>
-                        <div className="horizontal-scroll-section">
+                    <div className="team-category">
+                            <h3 className="team-position-title">Aesthetic Photographers</h3>
+                            <div className="scroll-buttons">
+                                <button className="scroll-left" onClick={() => scrollLeft('aesthetic-photographers')}>◀</button>
+                                <button className="scroll-right" onClick={() => scrollRight('aesthetic-photographers')}>▶</button>
+                            </div>
+                            <div className="horizontal-scroll-section aesthetic-photographers">
 
                             <div className="post-div">
                                 <div className="post-header">

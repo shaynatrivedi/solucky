@@ -178,6 +178,7 @@ a{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .post-image{
@@ -248,18 +249,22 @@ a{
 
 .horizontal-scroll-section {
     display: flex;
-    gap: 50px; /* Space between post-divs */
+    gap: 20px; /* Space between cards */
     overflow-x: auto; /* Enable horizontal scrolling */
-    overflow-y: hidden;
-    white-space: nowrap; /* Prevent line breaks for child elements */
-    padding: 20px;
-    scroll-behavior: smooth; /* Smooth scrolling */
-    max-width: 100%; /* Restrict width to prevent overflow */
-    box-sizing: border-box; /* Include padding in width calculations */
+    padding: 10px;
+    scroll-behavior: smooth;
+    width:1383px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.horizontal-scroll-section-noscroll{
+    display: flex;
+    gap:20px;
+    justify-content: center;
 }
 
 .horizontal-scroll-section::-webkit-scrollbar {
-    height: 10px; /* Customize scrollbar height */
+    display: none; /* hides scrollbar */
 }
 
 .horizontal-scroll-section::-webkit-scrollbar-thumb {
@@ -290,18 +295,43 @@ a{
 }
 
 .production{
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .social-media{
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .magazine-publishing{
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .aesthetic-photographers{
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
+.scroll-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.team-category {
+    margin-bottom: 50px;
+}
+  
+.category-title {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.scroll-left,
+.scroll-right {
+    height:26px;
+    width:43px;
+    border-radius: 10px 5px 5px 10px;
+    background: #FFF;
+}
