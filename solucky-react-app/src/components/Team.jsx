@@ -2,6 +2,17 @@ import React from "react";
 import './Team.css'
 
 const Team = () =>{
+
+    const scrollLeft = (sectionClass) => {
+        const container = document.querySelector(`.${sectionClass}`);
+        container.scrollBy({ left: -300, behavior: 'smooth' });
+    };
+      
+    const scrollRight = (sectionClass) => {
+    const container = document.querySelector(`.${sectionClass}`);
+    container.scrollBy({ left: 300, behavior: 'smooth' });
+    };
+
     return(
         <div className="team-page">
             <section className="team-join">
@@ -52,10 +63,13 @@ const Team = () =>{
                         </p>
                     </div>
                     
-                    <div className="brand-operations">
-                        <div className="brand-operations-header">
+                    <div className="team-category">
                             <h3 className="team-position-title">Brand Operations</h3>
-                            <div className="horizontal-scroll-section">
+                            <div className="scroll-buttons">
+                                <button className="scroll-left" onClick={() => scrollLeft('brand-operations')}>◀</button>
+                                <button className="scroll-right" onClick={() => scrollRight('brand-operations')}>▶</button>
+                            </div>
+                            <div className="horizontal-scroll-section brand-operations">
 
                                 <div className="post-div">
                                     <div className="post-header">
@@ -345,11 +359,7 @@ const Team = () =>{
                                         
                                     </div>
                                 </div>
-
-
-                            </div>
                         </div>
-
                     </div>
 
                     <div className="production">
