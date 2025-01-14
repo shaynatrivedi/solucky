@@ -164,7 +164,7 @@ const Team = () =>{
                                             <span className="post-account-name">
                                                 solucky.life </span> 
                                                 MEET SHAYNA TRIVEDI (she/her) ✨ 
-                                                <span className="specific-position">Web Designer</span> 
+                                                <span className="specific-position">Website Designer</span> 
                                             </p>
                                         </div>
                                         
