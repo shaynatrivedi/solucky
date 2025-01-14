@@ -147,6 +147,38 @@ const Team = () =>{
                                         </div>
                                         <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
                                     </div>
+                                    <img className='post-image' src='../Assets/Team/Team-Pictures/ShaynaTrivedi.png' alt='founder-image'></img>
+
+                                    <div className="post-bottom-div">
+                                        <div className="post-icons">
+                                            <div className="post-icons-left-group">
+                                                <img className="like-icon" src='../Assets/Team/Post-Assets/Like.png'></img>
+                                                <img className="comment-icon" src='../Assets/Team/Post-Assets/Comment.png'></img>
+                                                <img className="share-icon" src='../Assets/Team/Post-Assets/Message.png'></img>
+                                            </div>
+                                            <img className="save-icon" src='../Assets/Team/Post-Assets/Save.png'></img>
+                                        </div>
+                                
+                                        <div className="post-text">
+                                            <p>
+                                            <span className="post-account-name">
+                                                solucky.life </span> 
+                                                MEET SHAYNA TRIVEDI (she/her) ✨ 
+                                                <span className="specific-position">Web Designer</span> 
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="post-div">
+                                    <div className="post-header">
+                                        <div className="post-left-group">
+                                            <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
+                                            <p className="post-account-name">solucky.life</p>
+                                        </div>
+                                        <img className="more-icon" src='../Assets/Team/Post-Assets/MoreIcon.png'></img>
+                                    </div>
                                     <img className='post-image' src='../Assets/Team/Team-Pictures/AnujaPandit.png' alt='founder-image'></img>
 
                                     <div className="post-bottom-div">
