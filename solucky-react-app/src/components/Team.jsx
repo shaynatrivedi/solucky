@@ -66,8 +66,12 @@ const Team = () =>{
                     <div className="team-category">
                             <h3 className="team-position-title">Brand Operations</h3>
                             <div className="scroll-buttons">
-                                <button className="scroll-left" onClick={() => scrollLeft('brand-operations')}>◀</button>
-                                <button className="scroll-right" onClick={() => scrollRight('brand-operations')}>▶</button>
+                                <button className="scroll-left" onClick={() => scrollLeft('brand-operations')}>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                </button>
+                                <button className="scroll-right" onClick={() => scrollRight('brand-operations')}>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                </button>
                             </div>
                             <div className="horizontal-scroll-section brand-operations">
 
@@ -365,8 +369,12 @@ const Team = () =>{
                     <div className="team-category">
                             <h3 className="team-position-title">Production</h3>
                             <div className="scroll-buttons">
-                                <button className="scroll-left" onClick={() => scrollLeft('production')}>◀</button>
-                                <button className="scroll-right" onClick={() => scrollRight('production')}>▶</button>
+                                <button className="scroll-left" onClick={() => scrollLeft('production')}>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                </button>
+                                <button className="scroll-right" onClick={() => scrollRight('production')}>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                </button>
                             </div>
                             <div className="horizontal-scroll-section production">
                             <div className="post-div">
@@ -893,8 +901,12 @@ const Team = () =>{
                     <div className="team-category">
                             <h3 className="team-position-title">Magazine Publishing</h3>
                             <div className="scroll-buttons">
-                                <button className="scroll-left" onClick={() => scrollLeft('magazine-publishing')}>◀</button>
-                                <button className="scroll-right" onClick={() => scrollRight('magazine-publishing')}>▶</button>
+                                <button className="scroll-left" onClick={() => scrollLeft('magazine-publishing')}>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                </button>
+                                <button className="scroll-right" onClick={() => scrollRight('magazine-publishing')}>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                </button>
                             </div>
                             <div className="horizontal-scroll-section magazine-publishing">
                             <div className="post-div">
@@ -1191,8 +1203,12 @@ const Team = () =>{
                     <div className="team-category">
                             <h3 className="team-position-title">Aesthetic Photographers</h3>
                             <div className="scroll-buttons">
-                                <button className="scroll-left" onClick={() => scrollLeft('aesthetic-photographers')}>◀</button>
-                                <button className="scroll-right" onClick={() => scrollRight('aesthetic-photographers')}>▶</button>
+                                <button className="scroll-left" onClick={() => scrollLeft('aesthetic-photographers')}>
+                                    <img src="/Assets/Icons/chevron-left.png" alt="arrow-left"></img>
+                                </button>
+                                <button className="scroll-right" onClick={() => scrollRight('aesthetic-photographers')}>
+                                    <img src="/Assets/Icons/chevron-right.png" alt="arrow-right"></img>
+                                </button>
                             </div>
                             <div className="horizontal-scroll-section aesthetic-photographers">
 
