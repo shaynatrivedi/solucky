@@ -4,17 +4,19 @@ import "./Shop.css";
 const Shop = () => {
     return (
         <div className="shop-page">
-            <section className="section section1">
-                <div className="shop-message">
-                    <div className="textbox">
-                        <h1 className="text-pt-serif">Shop</h1>
-                        <p className="paragraph-message">
-                            Our shop is currently under construction. Please check back soon!
-                        </p>
-                    </div>
-                </div>
-                <img className="shop-image-1" src="../Assets/Shop/1.png" alt="overlap-image"></img>
-            </section>
+          <div className="shop-link-div">
+            <p className="shop-link-title">solucky wardrobe</p>
+            <a href="https://www.instagram.com/stories/highlights/17897013209879517/?hl=en">
+                <button className="shop-link-button">
+                    <p className="shop-link-button-text">shop second-hand fashion at affordable pricing</p>
+                    <img src="/Assets/Icons/shop-arrow.png" alt="arrow"></img>
+                </button>
+            </a>
+
+          </div>
+
         </div>
     );
 }
+
+export default Shop;
