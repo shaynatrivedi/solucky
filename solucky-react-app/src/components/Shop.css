@@ -1,0 +1,52 @@
+.shop-page{
+    background-color:rgb(231,230,228);
+    height: 100vh;
+
+}
+
+.shop-link-div{
+    padding-top: 200px;
+    display:flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-items: center;
+}
+
+.shop-link-title{
+    color: #8E0000;
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.9px;
+    text-transform: lowercase;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.shop-link-button{
+    border-radius: 35px;
+    background: #030303;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 585px;
+    display:flex;
+}
+
+.shop-link-button-text{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
