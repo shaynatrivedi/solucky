@@ -25,7 +25,7 @@ const Team = () =>{
                             the brand what it is today while gaining valuable creative
                             work experience in their fields of interest.
                         </p>
-                        <a href="https://www.youtube.com/watch?v=y6120QOlsfU">
+                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                             <button type="button">
                                 <p className="apply-textbox centered-p-bai-jamjuree">view bts photos</p>
                                 <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
