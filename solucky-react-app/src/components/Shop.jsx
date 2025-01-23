@@ -15,19 +15,19 @@ const Shop = () => {
               </a>   
             </div>
 
-            <div>
+            <div className="label-1">
               <p className="cutout-captions">WORTHINGTON velvet long sleeve $7</p>
             </div>
 
-            <div>
+            <div className="label-2" >
               <p className="cutout-captions">AMERICAN apparel plaid skirt $8</p>
             </div>
 
             <div className="cutout-image">
-              <img src='/Assets/Shop/full-cutout.png'></img>
+              <img src='/Assets/Shop/full-cutout.png' alt='outfit-cutout'></img>
             </div>
 
-            <div>
+            <div className="label-3">
               <p className="cutout-captions">ALDO boots $12</p>
             </div>
 
