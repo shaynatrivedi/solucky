@@ -1,15 +1,16 @@
 .shop-page{
     background-color:rgb(231,230,228);
-    height: 100vh;
-
+    height: 4242px;
+    display:flex;
+    justify-content: center;
 }
 
 .shop-link-div{
-    padding-top: 200px;
     display:flex;
     flex-direction: column;
     max-width: 700px;
     align-items: center;
+    gap: 30px;
 }
 
 .shop-link-title{
@@ -49,4 +50,22 @@
     text-transform: lowercase;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.cutout-captions{
+    color: #030303;
+    text-align: right;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-grid{
+    display:grid;
+    width: 1337px;
+    height: 1345px;
+    padding-left: 101px;
+    padding-top: 272px;
 }
