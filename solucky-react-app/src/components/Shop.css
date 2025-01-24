@@ -132,15 +132,47 @@
     display: none; /* hides scrollbar */
 }
 
-.horizontal-scroll-section::-webkit-scrollbar-thumb {
-    background-color: #ccc; /* Scrollbar color */
-    border-radius: 5px;
-}
-
 .cutout-item{
     width: 189.903px;
     height: 450px;
     flex-shrink: 0;
     padding-left: 23px;
     padding-right: 22px;
+}
+
+.shop-info{
+    padding-top: 100px;
+}
+
+.shop-info-header-text.smaller-header{
+    color: #8E0000;
+    font-family: "PT Serif";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.9px;
+}
+
+.shop-info-header-text.bigger-header{
+    color: #8E0000;
+    font-family: "PT Serif";
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9px;
+}
+
+.shop-link-button.smaller-button{
+
+    border-radius: 35px;
+    background: #030303;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-width: 152px;
+
 }
