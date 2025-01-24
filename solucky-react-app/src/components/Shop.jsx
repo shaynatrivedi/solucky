@@ -134,7 +134,38 @@ const Shop = () => {
                 </button>
               </a>
             </div>
-        </div>
+
+            <div className="shop-info-para para-1">
+              <p>
+              Discover unique second-hand treasures from our wardrobe, thoughtfully curated to reflect the themes of each
+              solucky magazine issue. Explore our collection of stylish, wallet-friendly pieces that add solucky’s 
+              creative flair to your closet!
+              </p>
+            </div>
+
+            <div className="shop-info-para para-2">
+              <p>
+              Browse our inventory through the “solucky store” highlight on Instagram or at occasional in-person events. 
+              Each curated selection features themes like EuropeanSummer, Y2K, 90s Casting Call, & more. Enjoy free shipping 
+              on  
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              orders over $20 (additional fees apply for shipping outside California).
+              </p>
+            </div>
+
+            <div className="sales-final-message">
+              <p className="final-sale-cap1">all sales are</p>
+              <p className="final-sale-cap2">final</p>
+              <p className="final-sale-cap3">no returns or exchanges!</p>
+            </div>
+
+
+            <img className="cloth-pile-image" src="Assets/Shop/clothpile.png" alt="clothes-pile"></img>
+          </div>
+
+
 
         </div>
     );
