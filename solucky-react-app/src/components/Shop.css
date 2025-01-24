@@ -2,7 +2,8 @@
     background-color:rgb(231,230,228);
     height: 4242px;
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .shop-link-div{
@@ -72,9 +73,9 @@
     height: 1345px;
     padding-top: 272px;
     display: grid;
-
     grid-template-columns: 222px 222px 222px 222px 222px 223px;
     grid-template-rows: 222px 222px 222px 222px 222px 223px;
+    margin-bottom: 82px;
 }
 
 .label-1 {
@@ -107,4 +108,36 @@
     grid-row: 1 / 3;
     grid-column: 4 /5;
     max-width: 100%;
+}
+
+
+.horizontal-scroll-section {
+    display: flex;
+    gap: 53px; /* Space between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px;
+    scroll-behavior: smooth;
+    width:1512px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.horizontal-scroll-section-noscroll{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.horizontal-scroll-section::-webkit-scrollbar {
+    display: none; /* hides scrollbar */
+}
+
+.horizontal-scroll-section::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Scrollbar color */
+    border-radius: 5px;
+}
+
+.cutout-item{
+    width: 189.903px;
+    height: 450px;
+    flex-shrink: 0;
 }
