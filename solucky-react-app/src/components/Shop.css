@@ -144,6 +144,14 @@
     padding-top: 100px;
 }
 
+.shop-header-div{
+    text-align: start;
+}
+
+.info-button-div{
+    display:flex;
+}
+
 .shop-info-header-text.smaller-header{
     color: #8E0000;
     font-family: "PT Serif";
@@ -162,10 +170,11 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 9px;
+    margin-top: -60px;
 }
 
 .shop-link-button.smaller-button{
-
+    width: 216px;
     border-radius: 35px;
     background: #030303;
     display: flex;
@@ -174,5 +183,4 @@
     align-items: center;
     gap: 15px;
     min-width: 152px;
-
 }
