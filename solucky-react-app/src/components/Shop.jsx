@@ -138,9 +138,9 @@ const Shop = () => {
               <div className="shop-info-para para-1">
                 <p>
                 Discover unique <span className="shop-info-para-bold">second-hand</span> treasures from 
-                <span className="shop-info-para-bold">our wardrobe</span>, thoughtfully curated to reflect the themes of each
+                <span className="shop-info-para-bold"> our wardrobe</span>, thoughtfully curated to reflect the themes of each
                 <span className="shop-info-para-italic"> solucky magazine</span> issue. Explore our collection of 
-                <span className="shop-info-para-bold">stylish, wallet-friendly</span> pieces that add <span className="shop-info-para-italic"> 
+                <span className="shop-info-para-bold"> stylish, wallet-friendly</span> pieces that add <span className="shop-info-para-italic"> 
                 solucky's</span> creative flair to your closet!
                 </p>
               </div>
@@ -149,7 +149,7 @@ const Shop = () => {
                 <p>
                 Browse our inventory through the <span className="shop-info-para-bold">“solucky store”</span> highlight on 
                 <span className="shop-info-para-bold"> Instagram</span> or at occasional <span className="shop-info-para-bold">in-person</span> events. 
-                Each curated selection features themes like EuropeanSummer, Y2K, 90s Casting Call, & more. Enjoy <span className="shop-info-para-bold">free shipping </span>
+                Each curated selection features themes like European Summer, Y2K, 90s Casting Call, & more. Enjoy <span className="shop-info-para-bold">free shipping </span>
                 on  
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
