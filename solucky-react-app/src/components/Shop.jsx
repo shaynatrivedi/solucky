@@ -148,7 +148,7 @@ const Shop = () => {
               <div className="shop-info-para para-2">
                 <p>
                 Browse our inventory through the <span className="shop-info-para-bold">“solucky store”</span> highlight on 
-                <span className="shop-info-para-bold">Instagram</span> or at occasional <span className="shop-info-para-bold">in-person</span> events. 
+                <span className="shop-info-para-bold"> Instagram</span> or at occasional <span className="shop-info-para-bold">in-person</span> events. 
                 Each curated selection features themes like EuropeanSummer, Y2K, 90s Casting Call, & more. Enjoy <span className="shop-info-para-bold">free shipping </span>
                 on  
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
