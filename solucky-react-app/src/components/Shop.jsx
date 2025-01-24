@@ -237,7 +237,7 @@ const Shop = () => {
                 <p className="position-name"><span className="bold-position">UX/UI Designer:</span> Shayna Trivedi</p>
                 <p className="position-name"><span className="bold-position">Web Developer:</span> Taj Sharma</p>
                 <p className="position-name"><span className="bold-position">Content Curators:</span> Sanjana Solanki & Shayari Saha</p>
-                <p className="position-name"><span className="bold-position">Consultant:</span>Amani Chowdhury</p>
+                <p className="position-name"><span className="bold-position">Consultant:</span> Amani Chowdhury</p>
                 <p className="position-name"><span className="bold-position">Brand Photographer & Photo Editor:</span> Amrutha Gururaja</p>
               </div>
             </div>
