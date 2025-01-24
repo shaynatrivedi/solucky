@@ -33,6 +33,91 @@ const Shop = () => {
 
           </div>
 
+          <div className="horizontal-scroll-section cutout-gallery">
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout1.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout2.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout3.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout4.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout5.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout6.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout7.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout8.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout9.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout10.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout11.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout12.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout13.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout14.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout15.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout16.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout17.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout18.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout19.png" alt="cutout-picture"></img>
+            </div>
+
+            <div className="cutout-item">
+              <img src="Assets/Shop/cutout20.png" alt="cutout-picture"></img>
+            </div>
+                        
+          </div>
+            
+
+
         </div>
     );
 }
