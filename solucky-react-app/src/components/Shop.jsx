@@ -116,7 +116,25 @@ const Shop = () => {
                         
           </div>
             
+        <div className="shop-info">
+            <div className="info-button-div">
+              <div className="shop-header-div">
+                <div className="shop-info-header-text smaller-header">
+                  our collection
+                </div>
+                <div className="shop-info-header-text bigger-header">
+                  your <i>style</i>
+                </div>
+              </div>
 
+              <a href="https://www.instagram.com/stories/highlights/17897013209879517/?hl=en">
+                <button className="shop-link-button smaller-button">
+                  <p className="shop-link-button-text">shop now</p>
+                  <img src="/Assets/Icons/shop-arrow.png" alt="arrow"></img>
+                </button>
+              </a>
+            </div>
+        </div>
 
         </div>
     );
