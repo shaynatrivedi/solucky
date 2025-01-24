@@ -143,6 +143,8 @@
 .shop-info{
     padding-top: 100px;
     width:1256px;
+    display: flex;
+    flex-direction: column;
 }
 
 .shop-link{
@@ -190,4 +192,65 @@
     align-items: center;
     gap: 15px;
     min-width: 152px;
+}
+
+.shop-info-para{
+    color: #030303;
+    text-align: justify;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-indent: 65px;
+}
+
+.final-sale-cap1{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.final-sale-cap2{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.final-sale-cap3{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sales-final-message{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.cloth-pile-image{
+    margin-top: -545px;
+    width: 1512px;
+    height: 1283px;
+    align-self: center;
 }
