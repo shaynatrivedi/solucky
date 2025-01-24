@@ -142,6 +142,12 @@
 
 .shop-info{
     padding-top: 100px;
+    width:1256px;
+}
+
+.shop-link{
+    align-self: end;
+    padding-bottom: 30px;
 }
 
 .shop-header-div{
@@ -150,6 +156,7 @@
 
 .info-button-div{
     display:flex;
+    justify-content: space-between;
 }
 
 .shop-info-header-text.smaller-header{
