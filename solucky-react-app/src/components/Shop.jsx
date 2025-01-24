@@ -127,7 +127,7 @@ const Shop = () => {
                 </div>
               </div>
 
-              <a href="https://www.instagram.com/stories/highlights/17897013209879517/?hl=en">
+              <a className="shop-link" href="https://www.instagram.com/stories/highlights/17897013209879517/?hl=en">
                 <button className="shop-link-button smaller-button">
                   <p className="shop-link-button-text">shop now</p>
                   <img src="/Assets/Icons/shop-arrow.png" alt="arrow"></img>
