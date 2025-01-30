@@ -1,5 +1,6 @@
 // src/components/About.jsx
 import React from 'react';
+import Footer from './Footer';
 import './About.css';
 
 const About = () => {
@@ -67,8 +68,7 @@ const About = () => {
           </div>
         </section>
 
-        <section className='section section5'>
-        </section>
+        <Footer/>
         
 
     </div>
