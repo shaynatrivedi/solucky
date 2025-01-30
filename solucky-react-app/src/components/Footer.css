@@ -1,0 +1,142 @@
+.footer{
+    display: flex;
+    width: 100vw;
+    padding: 50px 160px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: #030303;
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-card-title{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 96% */
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footer-card.num1{
+    height: 189px;
+    width: 189px;
+}
+
+.footer-card.num2{
+    height: 159px;
+    width: 225px;
+}
+
+.explore-links{
+    color: rgba(245, 245, 245, 0.80);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+
+.left-links{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap:15px;
+}
+
+.right-links{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    text-align: left;
+}
+
+.explore-links-container{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.join-team-links{
+    color: rgba(245, 245, 245, 0.80);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-align:left;
+}
+
+.logo-links-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 17.532px;
+    width: 200px;
+}
+
+.email-link{
+    color: rgba(245, 245, 245, 0.80);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+
+.touch-link-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left; 
+    width: 250px;
+    height: 175px;
+}
+
+.position-name{
+    color: rgba(245, 245, 245, 0.80);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bold-position{
+    color: rgba(245, 245, 245, 0.80);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 138.889% */
+}
+
+.acknowledgement-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 15px;
+}
