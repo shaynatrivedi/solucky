@@ -65,3 +65,8 @@ button{
     border-radius: 35px;
     background: black;
 }
+
+.button-arrow{
+    width: 39px;
+    height: 40px;
+}
