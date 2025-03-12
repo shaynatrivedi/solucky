@@ -65,6 +65,11 @@ button{
     background: black;
 }
 
+.button-arrow{
+    width: 39px;
+    height: 40px;
+}
+
 .contributor-info{
     color: #F5F5F5;
     text-align: center;
