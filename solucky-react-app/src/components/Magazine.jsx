@@ -6,6 +6,7 @@ const Magazine = () =>{
     return(
         <section className="magazine-page">
             <div className="magazine-info-div">
+                <img className="right-sticky-picture" src="../Assets/Magazine/legs.png" alt="legs"></img>
                 <div className="info-text-container">
                     <div className="top-text-container">
                         <div className="header-text-container">
@@ -39,7 +40,7 @@ const Magazine = () =>{
                 </div>
             </div>
 
-            <img className="right-sticky-picture" src="../Assets/Magazine/legs.png" alt="legs"></img>
+
         
 
         </section>       
