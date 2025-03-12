@@ -35,12 +35,28 @@ const Magazine = () =>{
                     </div>
 
                 </div>
-                <div className="info-button-container">
-                    buttons!
+                <div className="info-buttons-container">
+                    <a href="">
+                        <button>
+                            <p className="centered-p-bai-jamjuree">subscribe to <i>solucky</i> magazine</p>
+                        </button>
+                    </a>
+                    <a href="">
+                        <button>
+                            <p className="centered-p-bai-jamjuree">view all magazine media</p>
+                        </button>
+                    </a>
+                    <a href="">
+                        <button>
+                            <p className="centered-p-bai-jamjuree">join the <i>solucky</i> team</p>
+                        </button>
+                    </a>
                 </div>
             </div>
 
-
+            <div>
+                <h1>more</h1>
+            </div>
         
 
         </section>       
