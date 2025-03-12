@@ -62,3 +62,37 @@ code {
   font-weight: 700;
   line-height: normal;
 }
+
+.header-brand-text{
+  color: #030303;
+  font-family: "PT Serif";
+  font-size: 80px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-magazine-text{
+  color: #030303;
+  font-family: "PT Serif";
+  font-size: 350px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 81.936%; /* 286.776px */
+  width: 1239.227px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.magazine-para-text{
+  color: #030303;
+  text-align: justify;
+  font-family: "Bai Jamjuree";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-indent: 50px;
+}
