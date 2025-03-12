@@ -63,8 +63,78 @@ const Magazine = () =>{
 
             </div>
 
-            <div>
-                <h1>more</h1>
+            <div className="cover-hover-section">
+                <div className="cover-box" id="next-issue-gif"></div>
+                <div className="cover-box" id="magazine-23">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover23.png" alt="mag23"></img>
+                </div>
+                <div className="cover-box" id="magazine-22">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover22.png" alt="mag22"></img>
+                </div>
+                <div className="cover-box" id="magazine-21">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover21.png" alt="mag21"></img>
+                </div>
+                <div className="cover-box" id="magazine-20">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover20.png" alt="mag20"></img>
+                </div>
+                <div className="cover-box" id="magazine-19">
+                  <img className="magazine-picture" src="../Assets/Magazine/cover19.png" alt="mag19"></img>
+                </div>
+                <div className="cover-box" id="magazine-18">
+                   <img className="magazine-picture" src="../Assets/Magazine/cover18.png" alt="mag18"></img>
+                </div>
+                <div className="cover-box" id="magazine-17">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover17.png" alt="mag17"></img>
+                </div>
+                <div className="cover-box" id="magazine-16">
+                   <img className="magazine-picture" src="../Assets/Magazine/cover16.png" alt="mag16"></img>
+                </div>
+                <div className="cover-box" id="magazine-15">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover15.png" alt="mag15"></img>
+                </div>
+                <div className="cover-box" id="magazine-14">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover14.png" alt="mag14"></img>
+                </div>
+                <div className="cover-box" id="magazine-13">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover13.png" alt="mag13"></img>
+                </div>
+                <div className="cover-box" id="magazine-12">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover12.png" alt="mag12"></img>
+                </div>
+                <div className="cover-box" id="magazine-11">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover11.png" alt="mag11"></img>
+                </div>
+                <div className="cover-box" id="magazine-10">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover10.png" alt="mag10"></img>
+                </div>
+                <div className="cover-box" id="magazine-9">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover9.png" alt="mag9"></img>
+                </div>
+                <div className="cover-box" id="magazine-8">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover8.png" alt="mag8"></img>
+                </div>
+                <div className="cover-box" id="magazine-7">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover7.png" alt="mag7"></img>
+                </div>
+                <div className="cover-box" id="magazine-6">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover6.png" alt="mag6"></img>
+                </div>
+                <div className="cover-box" id="magazine-5">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover5.png" alt="mag5"></img>
+                </div>
+                <div className="cover-box" id="magazine-4">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover4.png" alt="mag4"></img>
+                </div>
+                <div className="cover-box" id="magazine-3">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover3.png" alt="mag3"></img>
+                </div>
+                <div className="cover-box" id="magazine-2">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover2.png" alt="mag2"></img>
+                </div>
+                <div className="cover-box" id="magazine-1">
+                    <img className="magazine-picture" src="../Assets/Magazine/cover1.png" alt="mag1"></img>
+                </div>
+
             </div>
         
 
