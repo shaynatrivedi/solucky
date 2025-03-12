@@ -22,7 +22,7 @@ const Magazine = () =>{
                         </div>
                     </div>
 
-                    <div className="bottom-text-coontainer" >
+                    <div className="bottom-text-container" >
                         <div className="magazine-para-text">
                             Since its first magazine issue in March 2021, solucky has become a publication where every photo, 
                             video, article, & piece of art is infused with the dedication of its contributors. The brand became
@@ -34,7 +34,7 @@ const Magazine = () =>{
                     </div>
 
                 </div>
-                <div className="info-button-containter">
+                <div className="info-button-container">
                     buttons!
                 </div>
             </div>
