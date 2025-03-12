@@ -46,12 +46,21 @@
     height: auto;
 }
 
-.info-buttons-container{
-    align-items: flex-start;
+.info-buttons-section{
+    width: 1456px;
+    height: 260px;
+    display: grid;
+    grid-template-columns: 182px 182px 182px 182px 182px 182px 182px 182px;
+    grid-template-rows: 65px  65px 65px 65px;
+}
+
+.buttons-container{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     gap:23px;
-    width: 1456px;
+    grid-row: 3 / 4;
+    grid-column: 1 / 6;
 }
 
 button{
@@ -69,4 +78,10 @@ button{
 .button-arrow{
     width: 39px;
     height: 40px;
+}
+
+.pointer-text-image{
+    padding-top: 50px;
+    grid-row: 1 / 4;
+    grid-column: 7 / 8;
 }
