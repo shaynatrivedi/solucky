@@ -37,3 +37,31 @@
     grid-template-columns: 242px 242px 242px 242px 242px 242px ;
 }
 
+.right-sticky-picture{
+    align-self: flex-end;
+    max-width: 988px;
+    position: absolute;
+    margin-top: -400px;
+    width: 958px;
+    height: auto;
+}
+
+.info-buttons-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap:23px;
+    width: 1456px;
+}
+
+button{
+    width: 345px;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 35px;
+    background: black;
+}
