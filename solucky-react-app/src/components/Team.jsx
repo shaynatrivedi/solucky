@@ -28,7 +28,7 @@ const Team = () =>{
                         <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                             <button type="button">
                                 <p className="apply-textbox centered-p-bai-jamjuree">view bts photos</p>
-                                <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
+                                <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                             </button>
                         </a>
                     </div>
@@ -38,14 +38,14 @@ const Team = () =>{
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
                                 <button type="button">
                                     <p className="apply-textbox centered-p-bai-jamjuree">apply to be a <i>solucky</i> contributor</p>
-                                    <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
+                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                                 </button>
                             </a>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
                                 <button type="button">
                                     <p className="apply-textbox centered-p-bai-jamjuree">apply to be a <i>solucky</i> model</p>
-                                    <img src="/Assets/Team/apply-arrow.png" alt="arrow"></img>
+                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                                 </button>
                             </a>
                         </div>
