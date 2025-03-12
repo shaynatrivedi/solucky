@@ -7,7 +7,11 @@
 }
 
 #text-box{
-    width: 512px;
+    padding-top: 100px;
+    padding-left:40px;
+    width: 662px;
+    grid-row: 3 / 5;
+    grid-column: 4 / 6;
 }
 
 .right-sticky-picture{
@@ -32,3 +36,4 @@
     grid-template-rows: 130px 130px 130px 130px 130px;
     grid-template-columns: 242px 242px 242px 242px 242px 242px ;
 }
+
