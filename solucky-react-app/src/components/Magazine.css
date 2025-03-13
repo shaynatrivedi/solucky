@@ -99,7 +99,7 @@ button{
 .cover-box{
     width: 326px;
     height: 422px;
-    background: #6057c4;
+    position: relative;
     margin-top:17px;
 }
 
@@ -113,4 +113,24 @@ button{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: opacity 0.3s ease;
+    position: absolute; /* Stack icons on top of each other */
+    opacity: 1;
+}
+
+.hover-picture{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.3s ease;
+        position: absolute; /* Stack icons on top of each other */
+        opacity: 0;
+}
+
+.cover-box:hover .magazine-picture{
+    opacity: 0;
+}
+
+.cover-box:hover .hover-picture{
+    opacity: 1;
 }
