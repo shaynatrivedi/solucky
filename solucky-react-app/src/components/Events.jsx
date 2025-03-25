@@ -5,13 +5,13 @@ const Events = () =>{
     return(
         <div className='Events Page'>
             <section className='landing-section'>
-                <div className='iphone-paragraph'>
+                <div className='iphone-paragraph-container'>
                     <div className='iphone-container'>
-
+                        <img src='../Assets/Events/iphone.png' className="iphone-pic" alt="iphone"></img>
                     </div>
                     <div className='para-text-container'>
                         <img src="../Assets/Events/theartof-text.png" alt="the-art-of"></img>
-                        <p className='main-header-events'>connection</p>
+                        <p className='events-header-text'>connection</p>
                         <p className='events-para-text'>
                             Our brand thrives on bringing creative energy  to life through events & pop-up shops that
                             foster community connections. From our anniversary parties to holiday celebrations, each
