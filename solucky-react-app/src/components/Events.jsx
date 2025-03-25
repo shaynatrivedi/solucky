@@ -3,7 +3,7 @@ import React from 'react'
 
 const Events = () =>{
     return(
-        <div className='Events Page'>
+        <div className='events-page'>
             <section className='landing-section'>
                 <div className='iphone-paragraph-container'>
                     <div className='iphone-container'>
