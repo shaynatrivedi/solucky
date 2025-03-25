@@ -1,5 +1,6 @@
-import './Events.css'
-import React from 'react'
+import './Events.css';
+import React from 'react';
+import Footer from './Footer';
 
 const Events = () =>{
     return(
@@ -35,8 +36,10 @@ const Events = () =>{
                 <img src='../Assets/Events/halloween-event.png' alt='event-background' className='event-picture'></img> 
                 <img src='../Assets/Events/3rd-anni.png' alt='event-background' className='event-picture'></img> 
                 <img src='../Assets/Events/clothing-tour.png' alt='event-background' className='event-picture'></img> 
-            </section>
+            </section>    
+        <Footer/>
         </div>
+        
     )
 }
 
