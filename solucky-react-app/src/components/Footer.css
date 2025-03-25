@@ -1,6 +1,5 @@
 .footer{
     display: flex;
-    width: 100vw;
     padding: 50px 160px;
     flex-direction: row;
     justify-content: space-evenly;
