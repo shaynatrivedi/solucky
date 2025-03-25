@@ -26,8 +26,15 @@ const Events = () =>{
                 </div>
 
             </section>
+            <section className='moving-strip'>
+                <p className='strip-text'> Placeholder text yay!</p>
+            </section>
             <section className='events-section'>
-
+                <img src='../Assets/Events/4th-anni.png' alt='event-background' className='event-picture'></img>
+                <img src='../Assets/Events/diwali-event.png' alt='event-background' className='event-picture'></img>  
+                <img src='../Assets/Events/halloween-event.png' alt='event-background' className='event-picture'></img> 
+                <img src='../Assets/Events/3rd-anni.png' alt='event-background' className='event-picture'></img> 
+                <img src='../Assets/Events/clothing-tour.png' alt='event-background' className='event-picture'></img> 
             </section>
         </div>
     )
