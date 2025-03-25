@@ -113,15 +113,22 @@ code {
 .events-header-text{
   color: #F5F5F5;
   font-family: "PT Serif";
-  font-size: 140px;
+  font-size: 134px;
   font-style: italic;
   font-weight: 700;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.iphone-paragraph-container{
-  display: flex;
+
+.strip-text{
+  color: #030303;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16.8px; /* 67.2% */
   margin-top: 0px;
-  padding-top: 200px;
-} 
+  margin-bottom: 0px;
+}
