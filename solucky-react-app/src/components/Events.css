@@ -5,3 +5,36 @@
     flex-direction: column;
     align-items: center;
 }
+
+.iphone-paragraph-container {
+    display: flex;
+    padding-top: 250px;
+    margin: 20px;
+    max-width: 1700px;
+    gap: 90px;
+}
+
+
+.para-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.moving-strip{
+    display: flex;
+    padding: 33px 160px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    background: #F5F5F5;
+}
+
+.events-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.event-picture{
+    width: 100%;
+}
