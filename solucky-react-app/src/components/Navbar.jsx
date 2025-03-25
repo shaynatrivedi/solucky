@@ -4,10 +4,10 @@ import './Navbar.css';
 
 const Navbar = () =>{
     const location = useLocation();
-    const isTeamPage = location.pathname === '/team'
+    const isEventsPage = location.pathname === '/events'
 
     return(
-        <nav className={`navbar ${isTeamPage ? 'team-page-navbar' : ''}`}>
+        <nav className={`navbar ${isEventsPage ? 'white-navbar' : ''}`}>
             <div className="header text-dm-serif">
                 <h1 className="title">solucky</h1>
                 <h3 className="titleCaption"><i>est.2020</i></h3>
