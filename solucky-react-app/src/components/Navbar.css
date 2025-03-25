@@ -58,15 +58,15 @@
     left: 0;
 }
 
-.team-page-navbar .header{
+.white-navbar .header{
     color: white;
 }
 
-.team-page-navbar .navList a {
+.white-navbar .navList a {
     color: white; /* Change the font color to white */
 }
 
-.team-page-navbar .navList a::after {
+.white-navbar .navList a::after {
     background: white; /* Change the underline color to white */
 }
 
