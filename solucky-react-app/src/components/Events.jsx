@@ -23,6 +23,7 @@ const Events = () =>{
                             experiences, & more. We aim to unite people in fresh & impactful ways, crafting memorable moments 
                             beyond the pages of our magazine. 
                         </p>
+                        <img src="../Assets/Events/stay-tuned-text.svg" alt="the-art-of"></img>
                     </div>
                 </div>
 
@@ -31,11 +32,46 @@ const Events = () =>{
                 <p className='strip-text'> Placeholder text yay!</p>
             </section>
             <section className='events-section'>
-                <img src='../Assets/Events/4th-anni.png' alt='event-background' className='event-picture'></img>
-                <img src='../Assets/Events/diwali-event.png' alt='event-background' className='event-picture'></img>  
-                <img src='../Assets/Events/halloween-event.png' alt='event-background' className='event-picture'></img> 
-                <img src='../Assets/Events/3rd-anni.png' alt='event-background' className='event-picture'></img> 
-                <img src='../Assets/Events/clothing-tour.png' alt='event-background' className='event-picture'></img> 
+                <div className='hover-section'>
+                    <img src='../Assets/Events/4th-anni.png' alt='event-background' className='event-picture'></img>
+                    <button className="gallery-button">
+                        <p className='event-button-text'>view gallery </p>
+                        <img src='../Assets/Team/apply-arrow.png' alt="->"></img>
+                    </button> 
+                </div>
+
+                <div className='hover-section'>
+                    <img src='../Assets/Events/diwali-event.png' alt='event-background' className='event-picture'></img>
+                    <button className="gallery-button">
+                        <p className='event-button-text'>view gallery </p>
+                        <img src='../Assets/Team/apply-arrow.png' alt="->"></img>
+                    </button>  
+                </div>
+
+                <div className='hover-section'>
+                    <img src='../Assets/Events/halloween-event.png' alt='event-background' className='event-picture'></img>
+                    <button className="gallery-button">
+                        <p className='event-button-text'>view gallery </p>
+                        <img src='../Assets/Team/apply-arrow.png' alt="->"></img>
+                    </button>  
+                </div>
+
+                <div className='hover-section'>
+                    <img src='../Assets/Events/3rd-anni.png' alt='event-background' className='event-picture'></img>
+                    <button className="gallery-button">
+                        <p className='event-button-text'>view gallery </p>
+                        <img src='../Assets/Team/apply-arrow.png' alt="->"></img>
+                    </button>  
+                </div>
+
+                <div className='hover-section'>
+                    <img src='../Assets/Events/clothing-tour.png' alt='event-background' className='event-picture'></img>
+                    <button className="gallery-button">
+                        <p className='event-button-text'>view gallery </p>
+                        <img src='../Assets/Team/apply-arrow.png' alt="->"></img>
+                    </button>  
+                </div>
+                
             </section>    
         <Footer/>
         </div>
