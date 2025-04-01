@@ -10,12 +10,16 @@
     align-items: center;
 }
 
-.iphone-paragraph-container {
-    display: flex;
-    padding-top: 250px;
+.iphone-paragraph-container{
+    display: grid;
+    padding-top: 220px;
     margin: 20px;
     max-width: 1700px;
-    gap: 90px;
+    max-height: 900px;
+    width: 1600px;
+    height: 900px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
 }
 
 
@@ -23,6 +27,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    grid-row: 2 / 8;
+    grid-column: 5 / 9;
 }
 
 .moving-strip{
@@ -78,4 +84,22 @@
 
 .hover-section:hover .event-picture {
     filter: brightness(50%); /* Darkens the image by reducing brightness */
-  }
+}
+
+.stay-tuned-text{
+    margin-top: 20px;
+    margin-left: 105px;
+    grid-row: 7 / 8;
+    grid-column: 4 / 9;
+}
+
+.the-art-of-text{
+    margin-top: 60px;
+    grid-row: 1 / 8;
+    grid-column: 5 / 9;
+}
+
+.iphone-pic{
+    margin-top: 20px;
+    margin-left: 90px;
+}
