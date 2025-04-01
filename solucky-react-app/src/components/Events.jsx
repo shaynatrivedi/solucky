@@ -10,8 +10,8 @@ const Events = () =>{
                     <div className='iphone-container'>
                         <img src='../Assets/Events/iphone.png' className="iphone-pic" alt="iphone"></img>
                     </div>
+                    <img className='the-art-of-text' src="../Assets/Events/theartof-text.png" alt="the-art-of"></img>
                     <div className='para-text-container'>
-                        <img src="../Assets/Events/theartof-text.png" alt="the-art-of"></img>
                         <p className='events-header-text'>connection</p>
                         <p className='events-para-text'>
                             Our brand thrives on bringing creative energy  to life through events & pop-up shops that
@@ -23,8 +23,8 @@ const Events = () =>{
                             experiences, & more. We aim to unite people in fresh & impactful ways, crafting memorable moments 
                             beyond the pages of our magazine. 
                         </p>
-                        <img src="../Assets/Events/stay-tuned-text.svg" alt="the-art-of"></img>
                     </div>
+                    <img className='stay-tuned-text' src="../Assets/Events/stay-tuned-text.svg" alt="stay-tuned"></img>
                 </div>
 
             </section>
