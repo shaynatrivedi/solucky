@@ -1,3 +1,7 @@
+.events-page{
+    background: black;
+}
+
 .landing-section{
     width: 100%;
     background-color: black;
@@ -35,6 +39,38 @@
     flex-direction: column;
 }
 
-.event-picture{
+.hover-section {
+    position: relative; 
+    display: flex;
+}
+  
+/* Make the image responsive */
+.hover-section .event-background {
     width: 100%;
+    height: auto;
+}
+
+.event-picture{
+    margin-top: -6px;
+    width: 100%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.hover-section .gallery-button {
+    position: absolute;
+    align-self: anchor-center;
+    justify-self: anchor-center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 35px;
+    background: #F5F5F5;
+    border: none;
+    opacity: 0;
+}
+
+.hover-section:hover .gallery-button{
+    background-color: rgb(180, 180, 180);
+    opacity: 100;
 }
