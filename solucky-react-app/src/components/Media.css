@@ -40,3 +40,28 @@
     margin-top: -120px;
     z-index: 99;
 }
+
+.macbook-interact-container {
+    position: relative;
+    width: 600px; /* adjust based on your design */
+  }
+  
+.macbook-image {
+width: 100%;
+display: block;
+}
+
+.laptop-screen-frame {
+position: absolute;
+top: 20%;    /* adjust these values to match the screen area */
+left: 10%;
+width: 80%;
+height: 60%;
+cursor: pointer; /* indicates it’s clickable */
+}
+
+.click-prompt {
+color: white;
+text-align: center;
+padding-top: 20%; /* center the text within the screen */
+}
