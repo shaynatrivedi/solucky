@@ -31,7 +31,7 @@ const Media = () => {
             </div>
 
             <div className="macbook-interact-container">
-                <img className="macbook-image" src="../Assets/Media/transparent-macbook-pro.png"></img>
+                <img className="macbook-image" src="../Assets/Media/macbook.png"></img>
             </div>
         </div>
     )
