@@ -6,6 +6,7 @@ import Team from './components/Team';
 import Shop from './components/Shop';
 import Magazine from './components/Magazine';
 import Events from './components/Events';
+import Media from './components/Media';
 import './components/Navbar.css';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/shop" element={<Shop/>} />
           <Route path="/magazine" element={<Magazine/>} />
           <Route path="/events" element={<Events/>} />
+          <Route path="/media" element={<Media/>} />
         </Routes>
 
       </div>
