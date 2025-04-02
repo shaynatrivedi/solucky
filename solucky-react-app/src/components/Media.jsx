@@ -15,6 +15,24 @@ const Media = () => {
                     MEDIA
                 </h1>
             </div>
+
+            <div className="media-info-container">
+                <div className="media-info-title">
+                    our creative evolution
+                </div>
+                <div className="media-paragraph-text">
+                    At solucky, our team's creativity shines through captivating editorial content.
+                    Every few months, we release a magazine issue featuring three to four main photoshoots,
+                    showcasing artistic flair & countless hours of dedication to an eccentric theme. From 
+                    our early days to now, our media reflects a growing community driven by collaboration,
+                    creativity, & storytelling. Explore photos, videos, & highlights from our magazine issues,
+                    events, & collaborations, capturing the evolution of our brand.
+                </div>
+            </div>
+
+            <div className="macbook-interact-container">
+                <img className="macbook-image" src="../Assets/Media/transparent-macbook-pro.png"></img>
+            </div>
         </div>
     )
 }
