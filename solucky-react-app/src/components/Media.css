@@ -59,7 +59,7 @@ display: block;
     cursor: pointer; /* indicates it’s clickable */
     width: 970px;
     align-self: anchor-center;
-    justify-self: anchor-center;
+    justify-self: anchor-center; 
     border-radius: 15px;
 }
 
