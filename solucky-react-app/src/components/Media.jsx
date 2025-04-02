@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './Media.css';
 import Footer from './Footer';
+import EmbeddedContent from "./EmbeddedContent";
 
 const Media = () => {
+    const [showEmbedded, setShowEmbedded] = useState(false);
+
     return(
         <div className="media-page">
             <div className="video-text-container">
@@ -32,6 +35,16 @@ const Media = () => {
 
             <div className="macbook-interact-container">
                 <img className="macbook-image" src="../Assets/Media/macbook.png"></img>
+                <div 
+                    className="laptop-screen-frame"
+                    onClick={() => setShowEmbedded(true)}
+                    >
+                    {showEmbedded ? (
+                        <EmbeddedContent />
+                    ) : (
+                        <div className="click-prompt">Click here to open the component</div>
+                    )}
+                </div>
             </div>
         </div>
     )
