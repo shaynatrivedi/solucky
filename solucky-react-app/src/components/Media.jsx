@@ -10,6 +10,11 @@ const Media = () => {
                     <source src="../Assets/Media/text-video.mp4" type="video/mp4"></source>
                 </video>
             </div>
+            <div className="text-box">
+                <h1 className="media-header-text">
+                    MEDIA
+                </h1>
+            </div>
         </div>
     )
 }
