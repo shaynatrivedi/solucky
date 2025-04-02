@@ -43,7 +43,8 @@
 
 .macbook-interact-container {
     position: relative;
-    width: 600px; /* adjust based on your design */
+    width: 1450px; /* adjust based on your design */
+    max-width: 1600px;
   }
   
 .macbook-image {
@@ -52,12 +53,14 @@ display: block;
 }
 
 .laptop-screen-frame {
-position: absolute;
-top: 20%;    /* adjust these values to match the screen area */
-left: 10%;
-width: 80%;
-height: 60%;
-cursor: pointer; /* indicates it’s clickable */
+    position: absolute;
+    top: -25px;    /* adjust these values to match the screen area */
+    height: 650px;
+    cursor: pointer; /* indicates it’s clickable */
+    width: 970px;
+    align-self: anchor-center;
+    justify-self: anchor-center;
+    border-radius: 15px;
 }
 
 .click-prompt {
