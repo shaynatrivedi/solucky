@@ -54,7 +54,6 @@ display: block;
 
 .laptop-screen-frame {
     position: absolute;
-    top: -25px;    /* adjust these values to match the screen area */
     height: 650px;
     cursor: pointer; /* indicates it’s clickable */
     width: 970px;
