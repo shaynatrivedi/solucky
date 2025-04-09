@@ -7,6 +7,7 @@ import Shop from './components/Shop';
 import Magazine from './components/Magazine';
 import Events from './components/Events';
 import Media from './components/Media';
+import Collabs from './components/Collabs';
 import './components/Navbar.css';
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/magazine" element={<Magazine/>} />
           <Route path="/events" element={<Events/>} />
           <Route path="/media" element={<Media/>} />
+          <Route path="/collabs" element={<Collabs/>} />
         </Routes>
 
       </div>
