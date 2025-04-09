@@ -118,7 +118,7 @@ const Collabs = () =>{
                 </div>
             </div>
 
-            
+        <Footer/>
         </div>
     )
 }
