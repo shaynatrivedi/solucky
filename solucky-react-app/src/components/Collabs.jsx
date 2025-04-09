@@ -39,7 +39,12 @@ const Collabs = () =>{
             </div>
 
             <div className="bottom-section">
+                <div className="view-archive-text-container">
+                    <img className="view-archive-svg" src="../Assets/Collabs/view-archive-text.svg"></img>
+                </div>
+                <div className="horizontal-scroll-section">
 
+                </div>
             </div>
 
             
