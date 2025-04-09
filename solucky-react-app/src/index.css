@@ -209,3 +209,13 @@ code {
   font-weight: 400;
   line-height: normal;
 }
+
+.collab-caption{
+  color: #030303;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
