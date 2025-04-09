@@ -42,8 +42,79 @@ const Collabs = () =>{
                 <div className="view-archive-text-container">
                     <img className="view-archive-svg" src="../Assets/Collabs/view-archive-text.svg"></img>
                 </div>
-                <div className="horizontal-scroll-section">
-
+                <div className="horizontal-scroll-section-collab">
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">snap choreography</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-2.png" alt="collab-pic"></img>
+                        <div className="collab-caption">tarana</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-3.png" alt="collab-pic"></img>
+                        <div className="collab-caption">mehendi by smriti</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-4.png" alt="collab-pic"></img>
+                        <div className="collab-caption">palam-collective</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">kaju studios</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">holly</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">pearlescent x reya</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">stax co. (podcast)</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">stax co. (event)</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">evolve with fashion</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">casino bleu</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">too many thoughts</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">fridays are for...</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">sweetener</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">t & a</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">hayeon</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">k & a</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="collab-caption">chrsl</div>
+                    </div>
                 </div>
             </div>
 

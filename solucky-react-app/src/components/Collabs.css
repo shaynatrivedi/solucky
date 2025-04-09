@@ -53,3 +53,14 @@
 .view-archive-svg{
     margin-left:100px;
 }
+
+.horizontal-scroll-section-collab {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 5px;
+    scroll-behavior: smooth;
+    width: 100vw;
+    padding: 5px;
+    margin: 0 auto; /* Center horizontally */
+    padding-bottom: 100px;
+}
