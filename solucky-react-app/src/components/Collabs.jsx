@@ -8,9 +8,7 @@ const Collabs = () =>{
             <div className="top-section">
                 <div className="content-container-grid">
                     <div className="create-grid-div">
-                        <div className="collab-bigger-text">C</div>
-                        <div className="collab-big-text">reate</div>
-                        <div className="collab-fancy-text">with solucky</div>
+                        
                     </div>
                     <div className="collab-paragraph-container">
                         <div className="magazine-para-text">
