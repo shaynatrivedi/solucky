@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&family=DM+Serif+Text&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
 body {
   font-family: 'Georgia', serif;
@@ -176,4 +177,34 @@ code {
   letter-spacing: 0%;
   text-align: justify;
   color: white;
+}
+
+.collab-bigger-text{
+  color: #030303;
+  text-align: center;
+  font-family: "PT Serif";
+  font-size: 450px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.collab-big-text{
+  color: #030303;
+  text-align: center;
+  font-family: "PT Serif";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.collab-fancy-text{
+  color: #000;
+  text-align: center;
+  font-family: "Oooh Baby";
+  font-size: 96.824px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
