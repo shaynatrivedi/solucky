@@ -7,8 +7,8 @@ const Collabs = () =>{
         <div className="collabs-page">
             <div className="top-section">
                 <div className="content-container-grid">
-                    <div className="create-grid-div">
-                        
+                    <div className="create-image-container">
+                        <img className="svg-image" alt="create-with-solucky" src="../Assets/Collabs/create-image.svg"></img>
                     </div>
                     <div className="collab-paragraph-container">
                         <div className="magazine-para-text">
@@ -31,6 +31,9 @@ const Collabs = () =>{
                         <div className="magazine-para-text">
                             Email solucky.contact@gmail.com to collab with us!
                         </div>
+                    </div>
+                    <div className="bracelet-svg-container">
+                        <img className="svg-bracelet" alt="bracelet" src="../Assets/Collabs/bracelet.svg"></img>
                     </div>
                 </div>
             </div>
