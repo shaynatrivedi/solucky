@@ -15,7 +15,13 @@
 }
 
 .right-sticky-picture{
-    right:0;
+    position: absolute;
+    top: 60px;          /* tweak to line up vertically with your text */
+    right: 0;            /* always flush to the right edge */
+    width: 40vw;         /* or any value that scales (you could also use px) */
+    max-width: 988px;    /* cap it so it never gets too huge */
+    height: auto;
+    z-index: 0;   
 }
 
 .magazine-info-div{
@@ -37,14 +43,6 @@
     grid-template-columns: 242px 242px 242px 242px 242px 242px ;
 }
 
-.right-sticky-picture{
-    align-self: flex-end;
-    max-width: 988px;
-    position: absolute;
-    margin-top: -400px;
-    width: 958px;
-    height: auto;
-}
 
 .info-buttons-section{
     width: 1456px;
@@ -109,9 +107,9 @@ button{
   
 
 .magazine-page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;  /* establishes a containing block for absolute kids */
+    width: 100%;
+    overflow-x: visible;
 }
 
 .magazine-picture{
