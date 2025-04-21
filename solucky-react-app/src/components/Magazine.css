@@ -87,21 +87,26 @@ button{
     grid-column: 7 / 8;
 }
 
-.cover-hover-section{
-    width: 1456px;
-    height:auto;
-    justify-content: space-evenly;
+.cover-hover-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;            /* allow wrapping to next row */
+    justify-content: flex-start;/* align all items starting at the left */
+    gap: 24px;                  /* gutter between covers */
+    
+    width: 100%;
+    max-width: 1456px;          /* same as your other sections */
+    margin: 0 auto;             /* center container in the viewport */
     padding-bottom: 200px;
-}
-
-.cover-box{
+  }
+  
+  .cover-box {
+    flex: 0 0 auto;             /* don’t stretch or shrink */
     width: 326px;
     height: 422px;
     position: relative;
-    margin-top:17px;
-}
+    margin-top: 17px;
+  }
+  
 
 .magazine-page{
     display: flex;
@@ -110,21 +115,25 @@ button{
 }
 
 .magazine-picture{
-    width: 100%;
+    position: absolute;     /* stack them */
+    top: 0;                 /* pin to top */
+    left: 0;                /* pin to left */
+    width: 100%;            /* fill the cover-box */
     height: 100%;
     object-fit: cover;
     transition: opacity 0.3s ease;
-    position: absolute; /* Stack icons on top of each other */
     opacity: 1;
 }
 
 .hover-picture{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: opacity 0.3s ease;
-        position: absolute; /* Stack icons on top of each other */
-        opacity: 0;
+    position: absolute;     /* stack them */
+    top: 0;                 /* pin to top */
+    left: 0;                /* pin to left */
+    width: 100%;            /* fill the cover-box */
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    opacity: 0;
 }
 
 .cover-box:hover .magazine-picture{
