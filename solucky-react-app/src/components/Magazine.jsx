@@ -5,14 +5,12 @@ import './Magazine.css';
 const Magazine = () =>{
     return(
         <section className="magazine-page">
+            <img className="right-sticky-picture" src="../Assets/Magazine/legs.svg" alt="legs"></img>
             <div className="magazine-info-div">
-                <img className="right-sticky-picture" src="../Assets/Magazine/legs.png" alt="legs"></img>
                 <div className="info-text-container">
                     <div className="top-text-container">
                         <div className="header-text-container">
-                            <p className="header-brand-text">solucky</p>
-                            <p className="header-magazine-text">maga</p>
-                            <p className="header-magazine-text">zine</p>
+                            <img src="../Assets/Magazine/solucky-magazine.svg" alt="solucky magazine"></img>
                         </div>
                         <div className="magazine-para-text" id="text-box">
                             At first, solucky began as a blog to share the founder’s passions with family & friends, 
@@ -57,7 +55,7 @@ const Magazine = () =>{
                         </a>
                     </div>
 
-                    <img className="pointer-text-image" src="../Assets/Magazine/magazine-pointer.png" alt="magazine below ↓"></img>
+                    <img className="pointer-text-image" src="../Assets/Magazine/magazine-pointer.svg" alt="magazine below ↓"></img>
                 </div>
 
 
