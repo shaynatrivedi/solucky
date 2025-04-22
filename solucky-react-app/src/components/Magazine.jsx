@@ -5,7 +5,7 @@ import './Magazine.css';
 const Magazine = () =>{
     return(
         <section className="magazine-page">
-            <img className="right-sticky-picture" src="../Assets/Magazine/legs.svg" alt="legs"></img>
+            <img className="right-sticky-picture" src="../Assets/Magazine/legs.png" alt="legs"></img>
             <div className="magazine-info-div">
                 <div className="info-text-container">
                     <div className="top-text-container">
