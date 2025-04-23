@@ -141,3 +141,15 @@ button{
 .cover-box:hover .hover-picture{
     opacity: 1;
 }
+
+#next-issue-gif {
+    overflow: hidden; /* keep it inside the box */
+}
+  
+.paper-gif-frame {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+  

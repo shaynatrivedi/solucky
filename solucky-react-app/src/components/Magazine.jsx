@@ -1,8 +1,27 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 import './Magazine.css';
 
+const paperPics = [
+    "/Assets/Magazine/paper-1.png",
+    "/Assets/Magazine/paper-2.png",
+    "/Assets/Magazine/paper-3.png",
+    "/Assets/Magazine/paper-4.png",
+    "/Assets/Magazine/paper-5.png",
+    "/Assets/Magazine/paper-6.png",
+    "/Assets/Magazine/paper-7.png",
+];
 
 const Magazine = () =>{
+    const [frame,setFrame] = useState(0);
+    
+    useEffect(() => {
+        const id = setInterval(
+        () => setFrame(f => (f + 1) % paperPics.length),
+        500
+        );
+        return () => clearInterval(id);
+    }, []);
+
     return(
         <section className="magazine-page">
             <img className="right-sticky-picture" src="../Assets/Magazine/legs.png" alt="legs"></img>
@@ -62,7 +81,13 @@ const Magazine = () =>{
             </div>
 
             <div className="cover-hover-section">
-                <div className="cover-box" id="next-issue-gif"></div>
+                <div className="cover-box" id="next-issue-gif">
+                    <img
+                        src={paperPics[frame]}
+                        alt={`preview ${frame+1}`}
+                        className="paper-gif-frame"
+                    />
+                </div>
                 <div className="cover-box" id="magazine-23">
                     <img className="magazine-picture" src="../Assets/Magazine/cover23.png" alt="mag23"></img>
                     <img className="hover-picture" src="../Assets/Magazine/hover23.png" alt="hov23"></img>
