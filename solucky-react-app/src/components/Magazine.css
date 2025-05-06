@@ -16,12 +16,15 @@
 
 .right-sticky-picture{
     position: absolute;
-    top: 60px;          /* tweak to line up vertically with your text */
     right: 0;            /* always flush to the right edge */
     width: 40vw;         /* or any value that scales (you could also use px) */
     max-width: 988px;    /* cap it so it never gets too huge */
     height: auto;
     z-index: 0;   
+}
+
+.solucky-magazine-svg{
+    width: 50vw;
 }
 
 .magazine-info-div{
@@ -45,25 +48,34 @@
 
 
 .info-buttons-section{
-    width: 1456px;
-    height: 260px;
-    display: grid;
-    grid-template-columns: 182px 182px 182px 182px 182px 182px 182px 182px;
-    grid-template-rows: 65px  65px 65px 65px;
-    padding-bottom: 70px;
+    position: relative;
+    width: 100%;
+    max-width: 1456px;          /* same cap as the rest of your sections */
+    margin: 0 auto;             /* center on larger screens */
+    padding: 100px 16px 70px;       /* horizontal gutters + bottom padding */
+    display: flex;              /* switch to flexbox */
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; 
 }
 
 .buttons-container{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap:23px;
-    grid-row: 3 / 4;
-    grid-column: 1 / 6;
+    flex-wrap: wrap;            /* wrap onto new lines on narrow screens */
+    gap: 23px;                  /* gutter between buttons */
+    width: 100%;
+}
+
+.buttons-container a {
+    flex: 1 1 200px;            /* grow & shrink, but never smaller than 200px */
+    max-width: 345px;           /* keep your current max width */
+  }
+  
+.buttons-container a button {
+    width: 100%;                /* button now spans the full flex item */
 }
 
 button{
-    width: 345px;
     height: auto;
     color: white;
     display: flex;
@@ -80,9 +92,14 @@ button{
 }
 
 .pointer-text-image{
-    padding-top: 50px;
-    grid-row: 1 / 4;
-    grid-column: 7 / 8;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(80%, 3%);
+    width: 100%;
+    max-width: 352px;
+    height: auto;
+    pointer-events: none;
 }
 
 .cover-hover-section {

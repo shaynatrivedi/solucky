@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react";
 import './Magazine.css';
+import Footer from './Footer';
 
 const paperPics = [
     "/Assets/Magazine/paper-1.png",
@@ -29,7 +30,7 @@ const Magazine = () =>{
                 <div className="info-text-container">
                     <div className="top-text-container">
                         <div className="header-text-container">
-                            <img src="../Assets/Magazine/solucky-magazine.svg" alt="solucky magazine"></img>
+                            <img src="../Assets/Magazine/solucky-magazine.svg" className="solucky-magazine-svg" alt="solucky-magazine"></img>
                         </div>
                         <div className="magazine-para-text" id="text-box">
                             At first, solucky began as a blog to share the founder’s passions with family & friends, 
@@ -72,8 +73,8 @@ const Magazine = () =>{
                                 <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                             </button>
                         </a>
+                        
                     </div>
-
                     <img className="pointer-text-image" src="../Assets/Magazine/magazine-pointer.svg" alt="magazine below ↓"></img>
                 </div>
 
@@ -183,7 +184,7 @@ const Magazine = () =>{
 
             </div>
         
-
+        <Footer/>
         </section>       
     )
 }
