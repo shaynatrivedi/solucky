@@ -6,15 +6,72 @@ import Footer from "./Footer";
 import Gallery from "./Gallery";
 
 const galleryData = {
-  "4th-anni": Array.from({ length: 20 }, (_, i) => `/Assets/Events/4th-anni/${i + 1}.png`),
-  "diwali-event": Array.from({ length: 20 }, (_, i) => `/Assets/Events/diwali-event/${i + 1}.png`),
-  "halloween-event": Array.from({ length: 20 }, (_, i) => `/Assets/Events/halloween-event/${i + 1}.png`),
-  "3rd-anni": Array.from({ length: 20 }, (_, i) => `/Assets/Events/3rd-anni/${i + 1}.png`),
-  "clothing-tour": Array.from({ length: 20 }, (_, i) => `/Assets/Events/clothing-tour/${i + 1}.png`),
+  "4th-anni": {
+    title: "4TH ANNIVERSARY ✹",
+    date: "AUGUST 25ᵗʰ 2023",
+    description:
+      "The celebration of solucky’s fourth anniversary as a creative brand took place at an unforgettable Boiler Room event in collaboration with Casino Bleu. On Friday, 8/25, the event brought together a lively crowd for a night of dancing and drinks near the University of California, Berkeley.",
+    images: [
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060001.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060003.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060004.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060005.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060007.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060008.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060009.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060010.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060011.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060013.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060014.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060015.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060017.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060018.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060019.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060020.JPG",
+    ],
+  },
+
+  "diwali-event": {
+    title: "DIWALI CELEBRATION ✹",
+    date: "NOVEMBER 12ᵗʰ 2023",
+    description: "A colorful evening of lights, lanterns, and community.",
+    images: Array.from({ length: 20 }, (_, i) =>
+      `/Assets/Galleries/Event-gallery/diwali-event/${String(i + 1).padStart(3, "0")}.JPG`
+    ),
+  },
+
+  "halloween-event": {
+    title: "HALLOWEEN SPOOK ✹",
+    date: "OCTOBER 31ˢᵗ 2023",
+    description: "Costumes, candy, and a dash of mischief!",
+    images: Array.from({ length: 20 }, (_, i) =>
+      `/Assets/Galleries/Event-gallery/halloween-event/${String(i + 1).padStart(3, "0")}.JPG`
+    ),
+  },
+
+  "3rd-anni": {
+    title: "3RD ANNIVERSARY ✹",
+    date: "AUGUST 25ᵗʰ 2022",
+    description: "Our third-year celebration at the Boiler Room.",
+    images: Array.from({ length: 20 }, (_, i) =>
+      `/Assets/Galleries/Event-gallery/3rd-anni/${String(i + 1).padStart(3, "0")}.JPG`
+    ),
+  },
+
+  "clothing-tour": {
+    title: "CLOTHING TOUR ✹",
+    date: "MAY 14ᵗʰ 2023",
+    description: "A pop-up tour of local fashion boutiques.",
+    images: Array.from({ length: 20 }, (_, i) =>
+      `/Assets/Galleries/Event-gallery/clothing-tour/${String(i + 1).padStart(3, "0")}.JPG`
+    ),
+  },
 };
+
 
 const Events = () => {
   const [openGalleryKey, setOpenGalleryKey] = useState(null);
+  const data = openGalleryKey ? galleryData[openGalleryKey] : null;
 
   return (
     <div className="events-page">
@@ -85,9 +142,12 @@ const Events = () => {
       {/* Gallery modal */}
       {openGalleryKey && (
         <Gallery
-          images={galleryData[openGalleryKey]}
+          images={data.images}
+          title={data.title}
+          date={data.date}
+          description={data.description}
           onClose={() => setOpenGalleryKey(null)}
-        />
+      />
       )}
 
       <Footer />
