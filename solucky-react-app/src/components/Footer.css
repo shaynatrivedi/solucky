@@ -139,3 +139,79 @@
     text-align: left;
     gap: 15px;
 }
+
+/* 1) On medium-large screens (<=1024px), let cards wrap, shrink & reduce type */
+@media (max-width: 1024px) {
+    .footer {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 32px;
+      gap: 24px;
+    }
+  
+    .footer-card {
+      /* Allow each card to grow or shrink, with a comfortable min width */
+      flex: 1 1 280px;
+      max-width: 320px;
+      height: auto;     /* kill your fixed-height constraints */
+      width: auto;      /* kill your fixed-width constraints */
+    }
+  
+    .footer-card-title {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+  
+    .explore-links,
+    .join-team-links,
+    .email-link,
+    .position-name,
+    .bold-position {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  
+    .logo-links-div {
+      gap: 12px;
+      width: auto;
+      justify-content: flex-start;
+    }
+  }
+  
+  /* 2) On small screens (<= 600px), stack everything vertically & shrink further */
+  @media (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px;
+      gap: 32px;
+    }
+  
+    .footer-card {
+      flex: 1 1 100%;
+      max-width: none;
+      width: 100%;
+      text-align: center;  /* center-align links for mobile */
+    }
+  
+    .footer-card.num1 .explore-links-container,
+    .footer-card.num3 .logo-links-div,
+    .footer-card.num4 .acknowledgement-container {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .footer-card-title {
+      font-size: 18px;
+    }
+  
+    .explore-links,
+    .join-team-links,
+    .email-link,
+    .position-name,
+    .bold-position {
+      font-size: 12px;
+      line-height: 1.3;
+    }
+  }
+  
