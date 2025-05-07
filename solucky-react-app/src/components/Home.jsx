@@ -1,12 +1,84 @@
 import React from 'react'
 import './Home.css'
+import sep from "./src-assets/four-leaf-clover.png";
+
+const labels = [
+    "TIMELESS",
+    "LUCKY",
+    "WOC OWNED",
+    "PASSIONATE",
+    "BAY AREA",
+    "AUTHENTIC",
+    "CREATIVE",
+  ];
 
 const Home = () =>{
-    return(
-        <div className='home-page'>
-            greetings from the landing page!
+    const loop = [...labels, ...labels];
+
+    return (
+        <div className="home-page">
+          {/* ——— Hero (full-section video) ——— */}
+            <section className="hero-section">
+                <video
+                className="hero-bg-video"
+                src="../Assets/Home//home_video.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                />
+                <div className="hero-content">
+                <h1 className="hero-text">
+                    welcome to <em>solucky</em>
+                </h1>
+                </div>
+            </section>
+
+            <section className="strip-section">
+                <div className="strip-container">
+                <div className="strip-content">
+                    {loop.map((word, i) => (
+                    <React.Fragment key={i}>
+                        <span className="strip-text-item">{word}</span>
+                        <img
+                        src={sep}
+                        alt=""
+                        className="strip-separator"
+                        />
+                    </React.Fragment>
+                    ))}
+                </div>
+                </div>
+            </section>
+    
+            <section className="whats-new-section">
+                <div className="whats-new-left">
+                <h2 className="whats-new-title">what’s new</h2>
+                <p className="whats-new-subtitle">
+                    <em>with solucky?</em>
+                </p>
+                <p className="whats-new-tagline">the creative brand</p>
+                </div>
+                <div className="whats-new-right">
+                <p>
+                    Welcome to our website – take your time to browse around. We’ve got
+                    lots of exciting stuff coming up, so keep an eye out for
+                    announcements, events, new inventory/merch, & more as we continue
+                    to grow our brand.
+                </p>
+                <p>
+                    “Our talented & devoted contributors team just released issue #25
+                    – Winter 2025, themed ‘Clocked In’, a powerful tribute to trendy
+                    corporate culture through the lens of Women’s History Month &
+                    Black History Month. With an all-female cast & an extra focus on
+                    Black women, this issue showcases the creativity of the modern
+                    working women – capturing power dressing, leadership, & the bold
+                    new era of corporate fashion (including the non-HR friendly).”
+                </p>
+                </div>
+            </section>
         </div>
-    );
+      );
 }
 
 export default Home;
