@@ -11,15 +11,15 @@
 }
 
 .iphone-paragraph-container{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     padding-top: 220px;
     margin: 20px;
-    max-width: 1800px;
-    max-height: 1200px;
-    width: 1600px;
-    height: 1000px;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 
@@ -27,8 +27,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    grid-row: 2 / 8;
-    grid-column: 5 / 9;
 }
 
 .moving-strip{
@@ -87,20 +85,16 @@
 }
 
 .stay-tuned-text{
-    margin-top: 140px;
-    margin-left: 125px;
-    grid-row: 7 / 8;
-    grid-column: 4 / 9;
+    margin-top: 50px;
+    margin-left: -170px;
 }
 
 .the-art-of-text{
-    margin-left:25px;
-    margin-top: 55px;
-    grid-row: 1 / 8;
-    grid-column: 5 / 9;
+    margin-bottom: -50px;
+    margin-left: 20px;
 }
 
 .iphone-pic{
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 90px;
 }
