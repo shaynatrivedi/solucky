@@ -1,9 +1,17 @@
 // src/components/Events.jsx
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Events.css";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
+
+const stripPhrases = [
+    "From SF to LA & NYC: Broadening Our Events in 2025 ✈️",
+    "Get Lucky: St. Patty's Celebration 2025 🍀",
+    "Celebrate With Us: Our 5th Anniversary 🥂",
+    "Paint the Town: Holi 2025 🌈",
+    "Jingle & Mingle: Christmas Party 2025 🎄",
+  ];
 
 const galleryData = {
   "4th-anni": {
@@ -139,7 +147,15 @@ const galleryData = {
 
 const Events = () => {
   const [openGalleryKey, setOpenGalleryKey] = useState(null);
+  const [stripIndex, setStripIndex] = useState(0);
   const data = openGalleryKey ? galleryData[openGalleryKey] : null;
+
+  useEffect(() => {
+      const id = setInterval(() => {
+        setStripIndex(i => (i + 1) % stripPhrases.length);
+      }, 4000);                // change every 4 seconds
+      return () => clearInterval(id);
+    }, []);
 
   return (
     <div className="events-page">
@@ -183,7 +199,7 @@ const Events = () => {
 
       {/* Separator strip */}
       <section className="moving-strip">
-        <p className="strip-text">Placeholder text yay!</p>
+        <p className="strip-text">{stripPhrases[stripIndex]}</p>
       </section>
 
       {/* Events thumbnails */}
