@@ -163,18 +163,11 @@ const Events = () => {
       <section className="landing-section">
         <div className="iphone-paragraph-container">
           <div className="iphone-container">
-            <img
-              src="../Assets/Events/iphone.png"
-              className="iphone-pic"
-              alt="iphone"
-            />
+            <img src="../Assets/Events/iphone.png" className="iphone-pic" alt="iphone"/>
           </div>
-          <img
-            className="the-art-of-text"
-            src="../Assets/Events/theartof-text.png"
-            alt="the art of"
-          />
+
           <div className="para-text-container">
+            <img className="the-art-of-text" src="../Assets/Events/theartof-text.png"alt="the art of"/>
             <p className="events-header-text">connection</p>
             <p className="events-para-text">
               Our brand thrives on bringing creative energy to life through events
@@ -188,12 +181,8 @@ const Events = () => {
               unite people in fresh & impactful ways, crafting memorable moments
               beyond the pages of our magazine.
             </p>
+            <img className="stay-tuned-text" src="../Assets/Events/stay-tuned-text.svg" alt="stay tuned" />
           </div>
-          <img
-            className="stay-tuned-text"
-            src="../Assets/Events/stay-tuned-text.svg"
-            alt="stay tuned"
-          />
         </div>
       </section>
 
