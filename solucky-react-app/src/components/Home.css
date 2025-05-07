@@ -103,28 +103,14 @@
   flex: 1 1 300px;
 }
 
-.whats-new-title {
-  font-size: 4rem;
-  color: #e00;
-  margin: 0;
-  line-height: 1;
+.whats-new-left{
+    text-align: end;
 }
 
-.whats-new-subtitle {
-  font-size: 2rem;
-  margin: 0.5rem 0;
-}
-.whats-new-tagline {
-  font-size: 1.5rem;
-  font-family: cursive;
-  margin: 1rem 0;
+.whats-new-right{
+    text-align: start;
 }
 
-.whats-new-right p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
 
 /* ——— Responsiveness ——— */
 @media screen and (max-width: 1024px) {
