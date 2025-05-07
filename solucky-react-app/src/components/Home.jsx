@@ -53,20 +53,20 @@ const Home = () =>{
     
             <section className="whats-new-section">
                 <div className="whats-new-left">
-                <h2 className="whats-new-title">what’s new</h2>
-                <p className="whats-new-subtitle">
-                    <em>with solucky?</em>
-                </p>
-                <p className="whats-new-tagline">the creative brand</p>
+                    <h2 className="whats-new-title">what’s new</h2>
+                    <p className="whats-new-subtitle">
+                        with <i>solucky?</i>
+                    </p>
+                    <p className="whats-new-tagline">the creative brand</p>
                 </div>
                 <div className="whats-new-right">
-                <p>
+                <p className='paragraph-message'>
                     Welcome to our website – take your time to browse around. We’ve got
                     lots of exciting stuff coming up, so keep an eye out for
                     announcements, events, new inventory/merch, & more as we continue
                     to grow our brand.
                 </p>
-                <p>
+                <p className='paragraph-message'>
                     “Our talented & devoted contributors team just released issue #25
                     – Winter 2025, themed ‘Clocked In’, a powerful tribute to trendy
                     corporate culture through the lens of Women’s History Month &
