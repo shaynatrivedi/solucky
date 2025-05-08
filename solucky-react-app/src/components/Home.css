@@ -179,6 +179,28 @@
     object-fit: cover;
     display: block;
   }
+
+  .flipbook-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    background: #000;
+  }
+  
+  .flipbook-pdf {
+    border: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    border-radius: 8px;
+  }
+  
+  /* Make it fully responsive */
+  @media (max-width: 768px) {
+    .flipbook-pdf {
+      height: 400px;
+    }
+  }
+  
   
   
 

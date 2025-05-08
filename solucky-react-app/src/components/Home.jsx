@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import sep from "./src-assets/four-leaf-clover.png";
+import Flipbook from "./Flipbook";
 
 const labels = [
     "TIMELESS",
@@ -151,8 +152,20 @@ const Home = () =>{
                 </div>
             </section>
 
-            <section>
-                
+            <section className="flipbook-section">
+                <object
+                    className="flipbook-pdf"
+                    data="/Assets/Home/issue25.pdf"
+                    type="application/pdf"
+                    width="100%"
+                    height="600px"
+                >
+                    <p>Your browser doesn’t support inline PDFs. 
+                        <a href="/Assets/Home/issue25.pdf" target="_blank" rel="noopener">
+                            Download the magazine here.
+                        </a>
+                    </p>
+                </object>
             </section>
         </div>
       );

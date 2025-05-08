@@ -6,8 +6,8 @@ import "./Flipbook.css";
 // point pdfjs to the worker bundle
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const Flipbook = () =>{
-  const [numPages, setNumPages] = useState(null);
+export default function Flipbook({ file, onClose }) {
+  const [numPages, setNumPages]   = useState(null);
   const [pageIndex, setPageIndex] = useState(1);
 
   function onDocumentLoadSuccess({ numPages }) {
@@ -19,13 +19,17 @@ const Flipbook = () =>{
     setPageIndex(p => Math.max(1, p - 2));
   }
   function next() {
-    setPageIndex(p => Math.min(numPages - (numPages % 2 === 0 ? 1 : 0), p + 2));
+    // if there’s an even number of pages we want to stop on page numPages-1
+    const lastLeftPage = numPages - (numPages % 2 === 0 ? 1 : 0);
+    setPageIndex(p => Math.min(lastLeftPage, p + 2));
   }
 
   return (
     <div className="flipbook-overlay">
       <button className="flipbook-close" onClick={onClose}>✕</button>
+
       <div className="flipbook-container">
+        {/* load the PDF file passed in as the `file` prop */}
         <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
           <div className="flipbook-pages">
             <Page pageNumber={pageIndex} className="flip-page" />
@@ -34,8 +38,22 @@ const Flipbook = () =>{
             )}
           </div>
         </Document>
-        <button className="flip-nav prev" onClick={prev} disabled={pageIndex === 1}>‹</button>
-        <button className="flip-nav next" onClick={next} disabled={pageIndex + 1 > numPages}>›</button>
+
+        <button
+          className="flip-nav prev"
+          onClick={prev}
+          disabled={pageIndex === 1}
+        >
+          ‹
+        </button>
+        <button
+          className="flip-nav next"
+          onClick={next}
+          disabled={pageIndex + 1 > numPages}
+        >
+          ›
+        </button>
+
         <div className="flip-counter">
           {pageIndex}–{Math.min(pageIndex + 1, numPages)} of {numPages}
         </div>
@@ -43,5 +61,3 @@ const Flipbook = () =>{
     </div>
   );
 }
-
-export default Flipbook;
