@@ -77,6 +77,79 @@ const Home = () =>{
                 </p>
                 </div>
             </section>
+
+            <section className="cards-section">
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-face card-back">
+                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                        </div>
+                        <div className="card-face card-front">
+                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
       );
 }
