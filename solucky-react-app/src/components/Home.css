@@ -101,16 +101,86 @@
 .whats-new-left,
 .whats-new-right {
   flex: 1 1 300px;
+  max-width: 900px;
 }
 
 .whats-new-left{
     text-align: end;
+    display: flex;
+    flex-direction: column;
 }
 
 .whats-new-right{
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+/* —— 7 cards laid out in a row, wrapping on small screens —— */
+/* container layout you already have */
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem 2rem;
+    background: #000;
+  }
+  
+  /* set up 3D perspective on each card */
+  .card {
+    perspective: 1000px;
+    flex: 0 1 120px;
+    width: 120px;
+    height: 180px;
+  }
+  
+  /* the “flippable” wrapper */
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+  
+  /* on hover, rotate the inner wrapper 180° */
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* both faces occupy the same space */
+  .card-face {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  }
+  
+  /* back side stays unrotated */
+  .card-back {
+    transform: rotateY(0deg);
+  }
+  
+  /* front side is initially hidden by a 180° rotation */
+  .card-front {
+    transform: rotateY(180deg);
+  }
+  
+  /* make sure images fill their face */
+  .card-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  
 
 /* ——— Responsiveness ——— */
 @media screen and (max-width: 1024px) {
