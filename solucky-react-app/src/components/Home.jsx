@@ -95,7 +95,7 @@ const Home = () =>{
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                            <img src="../Assets/Home/card-front-2.png" alt="card front 1" />
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ const Home = () =>{
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                            <img src="../Assets/Home/card-front-3.png" alt="card front 1" />
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ const Home = () =>{
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                            <img src="../Assets/Home/card-front-4.png" alt="card front 1" />
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const Home = () =>{
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                            <img src="../Assets/Home/card-front-5.png" alt="card front 1" />
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ const Home = () =>{
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                            <img src="../Assets/Home/card-front-6.png" alt="card front 1" />
                         </div>
                     </div>
                 </div>
@@ -145,10 +145,14 @@ const Home = () =>{
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
+                            <img src="../Assets/Home/card-front-7.png" alt="card front 1" />
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section>
+                
             </section>
         </div>
       );
