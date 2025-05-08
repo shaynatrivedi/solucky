@@ -59,7 +59,7 @@
 }
 .strip-separator {
     margin-right: 1.5rem;    /* space after each icon */
-  }
+}
 
 .strip-content {
   display: inline-block;
@@ -91,7 +91,7 @@
 .whats-new-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 2rem;
   background: #000;
   color: #fff;
@@ -123,8 +123,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem;
-    padding: 3rem 2rem;
+    gap: 5rem;
+    padding: 10rem 2rem;
     background: #000;
   }
   
