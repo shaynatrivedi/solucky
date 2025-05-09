@@ -45,6 +45,7 @@
     position: relative;
     width: 1200px; /* adjust based on your design */
     max-width: 1600px;
+    padding-bottom: 100px;
   }
   
 .macbook-image {
