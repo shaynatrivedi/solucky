@@ -8,8 +8,10 @@ const Navbar = () =>{
 
     return(
         <nav className={`navbar ${isWhiteNavbar ? 'white-navbar' : ''}`}>
-            <div className="header text-dm-serif">
-                <h1 className="title">solucky</h1>
+            <div className="header text-dm-serif"> 
+                <Link to="/" className={location.pathname === '/' ? 'active':''}>
+                    <h1 className="title">solucky</h1>
+                </Link>
                 <h3 className="titleCaption"><i>est.2020</i></h3>
             </div>
            

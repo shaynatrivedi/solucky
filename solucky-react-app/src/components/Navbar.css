@@ -7,6 +7,22 @@
     z-index: 999;
 }
 
+/* 1. Globally neutralize visited-link color so no link ever changes hue */
+.navbar a:visited {
+  color: inherit;
+}
+
+/* 2. Ensure every link in the navbar simply inherits its parent’s color */
+.navbar .navList a,
+.navbar .header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 3. Your two “themes” (black on light vs. white on dark) already live here: */
+.navbar .navList a { color: black; }                   /* default */
+.white-navbar .navList a { color: white; }          
+
 .navbar .header .title{
     font-size: 35px;
     margin-bottom: 0px;
