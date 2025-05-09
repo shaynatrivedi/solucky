@@ -46,6 +46,7 @@ const Media = () => {
                     )}
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from './Footer';
 import './Team.css'
 
 const Team = () =>{
@@ -1505,6 +1506,8 @@ const Team = () =>{
                     
                 </div>
             </section>
+
+            <Footer/>
         </div>
     );
 }

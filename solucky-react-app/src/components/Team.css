@@ -104,7 +104,7 @@ a{
     width: 1383px;
     flex-direction: column;
     align-items: center;
-    height: 4800px;
+    padding-bottom: 100px;
 }
 
 .team-operations-title{
