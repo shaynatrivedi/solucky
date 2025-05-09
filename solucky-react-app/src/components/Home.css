@@ -184,6 +184,7 @@
     display: flex;
     flex-direction: column;
     background: black;
+    align-items: center;
   }
 
   .flipbook-placeholder{
@@ -191,8 +192,32 @@
     height: 700px;
     background-color: red;
   }
+
+  .flipbook-arrow-container{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
+  .spotify-playlist-section{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   
+  .spotify-pointer-container{
+    text-align: left;
+    padding-bottom: 48px;
+  }
+
+  .playlist-container{
+    width: 95%;
+  }
 
 /* ——— Responsiveness ——— */
 @media screen and (max-width: 1024px) {
