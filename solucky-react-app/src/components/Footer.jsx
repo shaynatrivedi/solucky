@@ -32,8 +32,8 @@ const Footer = () =>{
         </div>
         <div className="footer-card num2">
           <p className="footer-card-title">JOIN OUR TEAM</p>
-          <a className="join-team-links">apply to become a <i>solucky contributor</i></a>
-          <a className="join-team-links">apply to become a <i>solucky model</i></a>
+          <a className="join-team-links">become a <i>solucky contributor</i></a>
+          <a className="join-team-links">become a <i>solucky model</i></a>
         </div>
 
         <div className="footer-card num3">
@@ -66,7 +66,7 @@ const Footer = () =>{
             </div>
 
             <div className="join-team-links">
-            click here to subscribe to <i>solucky</i> magazine
+            subscribe to <i>solucky</i> magazine
             </div>
 
           </div>
@@ -75,11 +75,10 @@ const Footer = () =>{
         <div className="footer-card num4">
           <p className="footer-card-title">ACKNOWLEDGEMENTS</p>
           <div className="acknowledgement-container">
-            <p className="position-name"><span className="bold-position">UX/UI Designer:</span> Shayna Trivedi</p>
-            <p className="position-name"><span className="bold-position">Web Developer:</span> Taj Sharma</p>
-            <p className="position-name"><span className="bold-position">Content Curators:</span> Sanjana Solanki & Shayari Saha</p>
-            <p className="position-name"><span className="bold-position">Consultant:</span> Amani Chowdhury</p>
-            <p className="position-name"><span className="bold-position">Brand Photographer & Photo Editor:</span> Amrutha Gururaja</p>
+            <p className="position-name"><span className="bold-position">Product & UX/UI Designer:</span> Shayna Trivedi</p>
+            <p className="position-name"><span className="bold-position">Fullstack Web Developer:</span> Taj Sharma</p>
+            <p className="position-name"><span className="bold-position">Brand & Creative Director:</span> Sanjana Solanki & </p>
+            <p className="position-name"><span className="bold-position">Brand Advisors:</span> Shayari Saha & Amani Chowdhury</p>
           </div>
         </div>
 
