@@ -169,7 +169,7 @@ const Home = () =>{
                     </div>
                     <iframe
                         style={{ borderRadius: '12px' }}
-                        src="https://open.spotify.com/embed/playlist/4co7MLF8CkKmJH98W2lQ4H?utm_source=generator"
+                        src="https://open.spotify.com/embed/playlist/3qZK3tcLI27PBDhsnwX5uM?utm_source=generator"
                         width="100%"
                         height="540"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -177,7 +177,6 @@ const Home = () =>{
                     />
                 </div>
             </section>
-
             <Footer/>
         </div>
       );
