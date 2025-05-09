@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import sep from "./src-assets/four-leaf-clover.png";
+import Footer from "./Footer";
 
 const labels = [
     "TIMELESS",
@@ -152,10 +153,32 @@ const Home = () =>{
             </section>
 
             <section className="flipbook-section">
+                <div className='flipbook-arrow-container'>
+                    <img src='../Assets/Home/issue-number-pointer.svg' className='arrow-image-1' alt='newest-issue-below'></img>
+                    <img src='../Assets/Home/click2read-pointer.svg' className='arrow-image-1' alt='flip-to-read' ></img>
+                </div>
                 <div className='flipbook-placeholder'>
                     <h1>here goes the flip book right here!!!</h1>
                 </div>
             </section>
+
+            <section className='spotify-playlist-section'>
+                <div className='playlist-container'>
+                    <div className='spotify-pointer-container'>
+                        <img src='../Assets/Home/spotify-pointer.svg' className='arrow-image-1' alt='exlpore spotify' ></img>   
+                    </div>
+                    <iframe
+                        style={{ borderRadius: '12px' }}
+                        src="https://open.spotify.com/embed/playlist/4co7MLF8CkKmJH98W2lQ4H?utm_source=generator"
+                        width="100%"
+                        height="540"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+
+            <Footer/>
         </div>
       );
 }
