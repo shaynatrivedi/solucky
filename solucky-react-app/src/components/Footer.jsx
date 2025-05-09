@@ -1,9 +1,15 @@
 import React from "react";
+import { useLocation } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () =>{
+    const { pathname } = useLocation();
+    // list all the paths you want in dark-red:
+    const redBgRoutes = ['/', '/media', '/events', '/team'];
+
+    const bg = redBgRoutes.includes(pathname) ? '#3C0000' : '#030303';
     return(
-        <div className="footer">
+        <div className="footer" style={{ backgroundColor: bg }}>
         <div className="footer-card num1">
           <p className="footer-card-title">EXPLORE</p>
           
